@@ -1,0 +1,98 @@
+==== mroz: n 428, 50 random groups, OLS -0.0174, distinct x 373 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-0.7398, -0.3789]             F: [-0.8256, -0.3469]
+  quadratic, projection  chi2: [-1.1298, 0.0701]+ U [0.1888, 1.0950]+ F: [-1.1298, 0.0701]+ U [0.1290, 1.0950]+
+  quadratic, profiled    chi2: [-1.1298, 0.0409]+ U [0.3765, 1.0950]+ F: [-1.1298, 0.0701]+ U [0.2190, 1.0950]+
+  linear: min T 3.63 at beta -0.5480 (J p, chi2_3, 0.3043)
+  quadratic: beta -1.1258, gamma -0.4662, J 0.01 (p, chi2_2, 0.9952)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-0.7398, -0.3789]             F: [-0.8256, -0.3469]
+  curved, projection     chi2: [-1.1298, -0.1936]+ U [0.7050, 1.0950]+ F: [-1.1298, -0.1936]+ U [0.6643, 1.0950]+
+  curved, profiled       chi2: [-1.1298, -0.2236]+ U [0.7471, 1.0950]+ F: [-1.1298, -0.2236]+ U [0.7050, 1.0950]+
+  linear: min T 3.63 at beta -0.5480 (J p, chi2_3, 0.3043)
+  curved: beta -1.1298, kappa 0.39083 (search bound +-0.4064), J 0.34 (p, chi2_2, 0.8452)
+ (22 s)
+==== card: n 3003, 50 random groups, OLS 0.0724, distinct x 18 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-0.1168, -0.1071]+ U [0.0373, 0.1178] F: [-0.1168, -0.0728]+ U [0.0322, 0.1178]
+  quadratic, projection  chi2: [-0.1168, 0.1688]+             F: [-0.1168, 0.1751]+
+  quadratic, profiled    chi2: [-0.1168, 0.1626]+             F: [-0.1168, 0.1626]+
+  linear: min T 0.71 at beta 0.0823 (J p, chi2_3, 0.8702)
+  quadratic: beta 0.0848, gamma 0.0854, J 0.31 (p, chi2_2, 0.8579)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-0.1168, -0.1071]+ U [0.0373, 0.1178] F: [-0.1168, -0.0728]+ U [0.0322, 0.1178]
+  curved, projection     chi2: [-0.1168, -0.1071]+ U [0.0322, 0.1178] F: [-0.1168, -0.0651]+ U [0.0217, 0.1178]
+  curved, profiled       chi2: [0.0373, 0.1126]               F: [0.0322, 0.1126]
+  linear: min T 0.71 at beta 0.0823 (J p, chi2_3, 0.8702)
+  curved: beta 0.0815, kappa 0.00072 (search bound +-0.0254), J 0.25 (p, chi2_2, 0.8814)
+ (97 s)
+==== star: n 5657, 319 clusters, OLS -0.8578, distinct x 17 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-1.7821, -0.3969]             F: [-1.7821, -0.3969]
+  quadratic, projection  chi2: [-1.7821, -0.1656]             F: [-1.7821, -0.1656]
+  quadratic, profiled    chi2: [-1.7821, -0.3969]             F: [-1.7821, -0.3969]
+  linear: min T 2.06 at beta -1.0881 (J p, chi2_3, 0.5610)
+  quadratic: beta -1.0416, gamma 0.0454, J 0.90 (p, chi2_2, 0.6380)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-1.7821, -0.3969]             F: [-1.7821, -0.3969]
+  curved, projection     chi2: [-5.6328, 3.6232]              F: [-5.6328, 3.6232]
+  curved, profiled       chi2: [-5.3388, 3.3369]              F: [-5.3388, 3.3369]
+  linear: min T 2.06 at beta -1.0881 (J p, chi2_3, 0.5610)
+  curved: beta -2.8032, kappa -0.70425 (search bound +-1.3257), J 1.60 (p, chi2_2, 0.4483)
+ (2096 s)
+==== maim5v: n 2019, 1002 clusters, OLS -0.0252, distinct x 37 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-1.2351, -0.6417]+ U [-0.1204, 0.2320] F: [-1.2351, -0.6417]+ U [-0.1204, 0.2320]
+  quadratic, projection  chi2: [-1.2351, -0.6417]+ U [-0.4536, 0.4392] F: [-1.2351, -0.6023]+ U [-0.4896, 0.4392]
+  quadratic, profiled    chi2: [-1.1146, -0.7237] U [-0.2824, 0.2990] F: [-1.1146, -0.7237] U [-0.2824, 0.2990]
+  linear: min T 5.48 at beta 0.0700 (J p, chi2_3, 0.1398)
+  quadratic: beta 0.0250, gamma -0.1277, J 2.81 (p, chi2_2, 0.2457)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-1.2351, -0.6417]+ U [-0.1204, 0.2320] F: [-1.2351, -0.6417]+ U [-0.1204, 0.2320]
+  curved, projection     chi2: [-1.2351, -0.5639]+ U [-0.3157, 0.7162] F: [-1.2351, -0.5639]+ U [-0.3157, 0.7162]
+  curved, profiled       chi2: [-1.2351, -0.7237]+ U [-0.2168, 0.2653] U [0.4032, 0.6733] F: [-1.2351, -0.7237]+ U [-0.2168, 0.2653] U [0.4032, 0.6733]
+  linear: min T 5.48 at beta 0.0700 (J p, chi2_3, 0.1398)
+  curved: beta -1.2351, kappa 0.03874 (search bound +-0.0632), J 1.86 (p, chi2_2, 0.3947)
+ (950 s)
+==== maim4v: n 2049, 1013 clusters, OLS -0.0405, distinct x 38 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-0.1769, 0.2001]              F: [-0.1769, 0.2001]
+  quadratic, projection  chi2: [-0.7899, 0.8517]              F: [-0.7899, 0.8517]
+  quadratic, profiled    chi2: [-0.7452, 0.5375]              F: [-0.7452, 0.5375]
+  linear: min T 0.36 at beta -0.0065 (J p, chi2_3, 0.9486)
+  quadratic: beta -0.0145, gamma 0.0343, J 0.12 (p, chi2_2, 0.9402)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-0.1769, 0.2001]              F: [-0.1769, 0.2001]
+  curved, projection     chi2: [-1.3385, -0.7899]+ U [-0.2113, 0.2001] F: [-1.3385, -0.7899]+ U [-0.2113, 0.2001]
+  curved, profiled       chi2: [-1.3385, -0.8834]+ U [-0.1769, 0.1651] F: [-1.3385, -0.8834]+ U [-0.1769, 0.1651]
+  linear: min T 0.36 at beta -0.0065 (J p, chi2_3, 0.9486)
+  curved: beta 0.0034, kappa 0.00104 (search bound +-0.0706), J 0.28 (p, chi2_2, 0.8709)
+ (584 s)
+==== banerjee: n 3541, 54 clusters, OLS 0.0794, distinct x 62 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: [-0.3920, -0.0632] U [0.2012, 0.7023] F: [-0.4201, -0.0219] U [0.1807, 0.7364]
+  quadratic, projection  chi2: [-0.6898, 0.8486]+             F: [-0.6898, 0.8486]+
+  quadratic, profiled    chi2: [-0.6898, 0.8486]+             F: [-0.6898, 0.8486]+
+  linear: min T 1.66 at beta 0.5235 (J p, chi2_3, 0.6457)
+  quadratic: beta 0.4796, gamma 0.0443, J 0.40 (p, chi2_2, 0.8201)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: [-0.3920, -0.0632] U [0.2012, 0.7023] F: [-0.4201, -0.0219] U [0.1807, 0.7364]
+  curved, projection     chi2: [-0.6898, 0.8486]+             F: [-0.6898, 0.8486]+
+  curved, profiled       chi2: [-0.6898, 0.8486]+             F: [-0.6898, 0.8486]+
+  linear: min T 1.66 at beta 0.5235 (J p, chi2_3, 0.6457)
+  curved: beta -0.1828, kappa -1.48786 (search bound +-1.8038), J 0.58 (p, chi2_2, 0.7473)
+ (117 s)
+==== adh: n 1444, 48 clusters, OLS -0.1169, distinct x 1444 ====
+ nonlinear feedback (eta):
+  linear (gamma = 0)     chi2: empty                          F: [-0.2673, -0.1808]
+  quadratic, projection  chi2: [-0.8872, 0.1947]              F: [-0.8872, 0.2194]
+  quadratic, profiled    chi2: [-0.8478, 0.1469] U [0.1947, 0.1947] F: [-0.8872, 0.1947]
+  linear: min T 9.74 at beta -0.2022 (J p, chi2_3, 0.0209)
+  quadratic: beta -0.1503, gamma -0.2824, J 0.38 (p, chi2_2, 0.8275)
+ quadratic outcome (kappa):
+  linear (kappa = 0)     chi2: empty                          F: [-0.2673, -0.1808]
+  curved, projection     chi2: [-0.4285, 0.0336]              F: [-0.4783, 0.0336]
+  curved, profiled       chi2: [-0.4043, 0.0117]              F: [-0.4285, 0.0336]
+  linear: min T 9.74 at beta -0.2022 (J p, chi2_3, 0.0209)
+  curved: beta -0.3354, kappa 0.02001 (search bound +-0.0200), J 2.11 (p, chi2_2, 0.3489)
+ (78 s)

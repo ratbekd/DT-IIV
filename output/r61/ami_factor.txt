@@ -1,0 +1,16 @@
+skewed factor                    lambda 0.501  corr(x,eps) 0.500  norm 0.122  (bounded basis 0.105, powers 0.122)
+skewed factor, strong loading    lambda 1.001  corr(x,eps) 0.633  norm 0.227  (bounded basis 0.204, powers 0.226)
+all components skewed            lambda 0.500  corr(x,eps) 0.501  norm 0.292  (bounded basis 0.251, powers 0.267)
+heavy-tailed factor              lambda 0.502  corr(x,eps) 0.501  norm 0.068  (bounded basis 0.052, powers 0.045)
+Gaussian components              lambda 0.500  corr(x,eps) 0.500  norm 0.001  (bounded basis 0.000, powers 0.000)
+coverage of beta0: exact powers, exact bounded | joint     0  0.05   0.1   0.2   0.3
+skewed factor                    n   500 | 0.474 0.564 | 0.846 0.992 1.000 1.000 1.000
+skewed factor                    n  2000 | 0.006 0.014 | 0.116 0.846 1.000 1.000 1.000
+skewed factor, strong loading    n   500 | 0.004 0.026 | 0.126 0.490 0.860 1.000 1.000
+skewed factor, strong loading    n  2000 | 0.000 0.000 | 0.000 0.000 0.122 1.000 1.000
+all components skewed            n   500 | 0.016 0.006 | 0.072 0.290 0.622 0.990 1.000
+all components skewed            n  2000 | 0.000 0.000 | 0.000 0.000 0.002 0.918 1.000
+heavy-tailed factor              n   500 | 0.900 0.912 | 0.984 1.000 1.000 1.000 1.000
+heavy-tailed factor              n  2000 | 0.712 0.696 | 0.916 1.000 1.000 1.000 1.000
+Gaussian components              n   500 | 0.926 0.944 | 0.994 1.000 1.000 1.000 1.000
+Gaussian components              n  2000 | 0.948 0.954 | 0.998 1.000 1.000 1.000 1.000

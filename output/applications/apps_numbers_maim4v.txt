@@ -1,0 +1,13 @@
+==== Maimonides grade 4 avgverb on class size : n 2049 G 1013 OLS -0.040 sr/sx 1.298028
+OLS -0.040 (0.032)  2SLS -0.133 (0.061)
+third moments (standardized), cluster-bootstrap t:
+        m30    m21    m12    m03
+value -0.466  0.006 -0.123 -0.418
+t     -3.206  0.168 -3.474 -4.530
+root 1: theta -0.9910 beta -2.023 rho 0.837 relevance 0.548 in-domain FALSE | screen p (window 0.1) 0.000 [min at -1.0910] | (window 0.100) chi2 0.000 adj 0.000 [min at -1.0910]
+root 2: theta -0.3356 beta -0.493 rho 0.329 relevance 0.944 in-domain TRUE | screen p (window 0.1) 0.000 [min at -0.2859] | (window 0.100) chi2 0.000 adj 0.004 [min at -0.2859]
+root 3: theta 1.5443 beta 48.933 rho -1.000 relevance 0.026 in-domain FALSE | screen p (window 0.1) 0.145 [min at 1.5835] | (window 0.100) chi2 0.145 adj 0.187 [min at 1.5835]
+in-domain root nearest 0: beta -0.493 | naive se 0.039 | corrected se 0.214, Wald [-0.912, -0.074] | bootstrap se 0.172, percentile [-0.927, -0.233], draws with a root 798/999 | gap -0.453 (se 0.215)
+one_sided rho_hat -0.022 | C_rho [-0.142, 0.082] | C_beta(D) [-0.148, 0.146]
+two_sided rho_hat 0.229 | C_rho [0.109, 0.390] | C_beta(D) [-0.449, -0.183]
+prior-only bound B(D): [-0.449, 0.368]

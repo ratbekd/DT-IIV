@@ -1,0 +1,30 @@
+== Card by current region == pooled domain [-0.115, 0.257]
+  non-South    n= 1790 OLS 0.069 CUE 0.069 Jp 0.487  C95: [-0.053, 0.098]   C(adj): [-0.077, 0.103]
+  South        n= 1213 OLS 0.076 CUE 0.109 Jp 0.356  C95: [-0.115, 0.267]+   C(adj): [-0.115, 0.267]+
+  pooled set: [-0.074, -0.006] U [0.038, 0.105]
+  H = 4.47 at b=0.075; p robust (chi2_4) = 0.346; p strong = 0.215
+  weighted avg set: [-0.093, 0.169] weights [0.596 0.404]
+== Card by race == pooled domain [-0.113, 0.260]
+  non-Black    n= 2304 OLS 0.073 CUE 0.093 Jp 0.769  C95: [0.048, 0.126]   C(adj): [0.040, 0.131]
+  Black        n=  699 OLS 0.065 CUE -0.085 Jp 0.789  C95: [-0.133, 0.180]+   C(adj): [-0.133, 0.185]+
+  pooled set: [0.032, 0.134]
+  H = 1.60 at b=0.092; p robust (chi2_4) = 0.809; p strong = 0.660
+  weighted avg set: [-0.000, 0.143] weights [0.767 0.233]
+== STAR by school location == pooled domain [-9.220, 7.672]
+  rural        n= 2626 OLS -0.930 CUE -0.913 Jp 0.246  C95: [-1.742, 0.042]   C(adj): [-1.861, 0.162]
+  non-rural    n= 3031 OLS -0.774 CUE -1.058 Jp 0.170  C95: [-1.932, -0.198]   C(adj): [-2.078, -0.106]
+  pooled set: [-1.692, -0.209]
+  H = 2.13 at b=-0.915; p robust (chi2_4) = 0.711; p strong = 0.545
+  weighted avg set: [-1.977, 0.018] weights [0.464 0.536]
+== Maimonides grade 4 by school disadvantage == pooled domain [-1.227, 1.101]
+  low disadv.  n= 1138 OLS -0.063 CUE 0.053 Jp 0.379  C95: [-1.011, -0.564] U [-0.142, 0.321]   C(adj): [-1.075, -0.500] U [-0.173, 0.364]
+  high disadv. n=  911 OLS 0.008 CUE -0.014 Jp 0.820  C95: [-0.238, 0.154] U [1.046, 1.383]+   C(adj): [-0.294, 0.184] U [0.980, 1.383]+
+  pooled set: [-0.148, 0.177]
+  H = 1.30 at b=0.002; p robust (chi2_4) = 0.862; p strong = 0.730
+  weighted avg set: [-0.728, 0.337] U [0.340, 0.817] weights [0.555 0.445]
+== Maimonides grade 5 by school disadvantage == pooled domain [-1.035, 0.942]
+  low disadv.  n= 1098 OLS -0.047 CUE 0.220 Jp 0.924  C95: [-1.035, 0.942]+   C(adj): [-1.035, 0.942]+
+  high disadv. n=  921 OLS 0.012 CUE -0.108 Jp 0.311  C95: [-0.608, 0.292]   C(adj): [-1.341, 0.366]+
+  pooled set: [-0.731, 0.424]
+  H = 3.85 at b=0.137; p robust (chi2_4) = 0.427; p strong = 0.279
+  weighted avg set: [-1.174, 0.679] weights [0.544 0.456]

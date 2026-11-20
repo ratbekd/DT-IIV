@@ -1,0 +1,26 @@
+
+==== adh : n = 1444 ; real OLS -0.117 ; beta0 = real 2SLS -0.303 ; gamma 0.236 ; replications 500 ====
+residual variance by decile of the regressor, relative to the mean:
+  1.565 1.054 0.686 0.915 0.758 0.749 0.707 0.827 0.724 2.013
+
+---- design hom : median OLS -0.120 , median 2SLS -0.305 , true rho_xu 0.228 ----
+DT, label rule    : median -0.246, MAD 0.040, true root 0.490, none 0.398
+DT, screened      : median -0.261, MAD 0.036, true root 0.260, none 0.706; all roots rejected 0.528
+set              median      MAD    cover  excl OLS  J reject
+two_sided        -0.305    0.029    0.752     0.992     0.122
+two_sided_var    -0.298    0.058    0.244     0.996     0.562
+one_sided        -0.302    0.031    0.466     0.994     0.226
+kurt_pair        -0.304    0.029    0.660     0.998     0.084
+all4             -0.301    0.027    0.432     1.000     0.282
+five             -0.298    0.058    0.184     1.000     0.688
+
+---- design het : median OLS -0.118 , median 2SLS -0.305 , true rho_xu 0.229 ----
+DT, label rule    : median -0.210, MAD 0.052, true root 0.088, none 0.846
+DT, screened      : median -0.252, MAD 0.063, true root 0.052, none 0.930; all roots rejected 0.502
+set              median      MAD    cover  excl OLS  J reject
+two_sided        -0.306    0.065    0.598     0.970     0.344
+two_sided_var    -0.300    0.046    0.136     0.970     0.768
+one_sided        -0.305    0.044    0.486     0.966     0.238
+kurt_pair        -0.303    0.118    0.336     0.964     0.552
+all4             -0.341    0.041    0.140     0.998     0.644
+five             -0.337    0.060    0.094     0.998     0.812

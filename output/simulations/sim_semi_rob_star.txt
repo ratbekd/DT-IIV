@@ -1,0 +1,23 @@
+
+==== star : n = 5657 ; clusters 319 ; beta0 -0.984 ; OLS -0.858 ; replications 300 ====
+
+---- design hom ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided    -0.985   0.120 |  0.973  0.973 |    0.003 |  0.003  0.003
+bounded      -0.985   0.132 |  0.967  0.967 |    0.013 |  0.000  0.000
+both         -0.987   0.116 |  0.983  0.983 |    0.000 |  0.000  0.000
+
+---- design het ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided    -0.991   0.123 |  0.983  0.983 |    0.000 |  0.000  0.000
+bounded      -0.985   0.114 |  0.987  0.987 |    0.003 |  0.003  0.003
+both         -0.986   0.123 |  0.993  0.997 |    0.000 |  0.000  0.000
+
+---- design blk ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided    -0.993   0.211 |  0.983  0.987 |    0.000 |  0.003  0.000
+bounded      -0.996   0.218 |  0.970  0.980 |    0.000 |  0.000  0.000
+both         -0.990   0.216 |  0.997  0.997 |    0.000 |  0.000  0.000

@@ -1,0 +1,2 @@
+==== Maimonides grade 5 avgverb on class size ; full sample roots in |tau| <= 1: 1 ; beta: -0.259
+resamples 999: zero 1.5%  one 97.1%  two+ 1.4% | draws with a root of each sign: neg 93.8% pos 5.3%

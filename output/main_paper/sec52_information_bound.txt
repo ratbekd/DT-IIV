@@ -1,0 +1,2 @@
+t5     theory 1-1/J = 0.200 | powers 0.028 sieve 0.188 bounded 0.187 score psi 0.187
+logis  theory 1-1/J = 0.088 | powers 0.064 sieve 0.091 bounded 0.091 score psi 0.091

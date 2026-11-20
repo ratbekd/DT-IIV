@@ -1,0 +1,44 @@
+
+==== mroz ==== one-sided beta -0.789 (OLS -0.017 )
+zeros of mean(u s^2), beta: -1.057, -0.242, -0.041
+zeros of mean(u s^3), beta: -0.820, 2.250
+95% S-set pieces (whole circle): [-1112.425, -3.997] [-1.164, -0.488] [12.921, 1112.390]
+
+==== card ==== one-sided beta 0.093 (OLS 0.072 )
+zeros of mean(u s^2), beta: -1.581, -0.039, 0.105
+zeros of mean(u s^3), beta: -4.459, 0.076
+95% S-set pieces (whole circle): [-189.131, -0.349] [-0.100, -0.036] [0.020, 0.136] [1.323, 189.276]
+
+==== star ==== one-sided beta -1.026 (OLS -0.858 )
+zeros of mean(u s^2), beta: -57.336, -10.351, -0.531
+zeros of mean(u s^3), beta: -148.557, -1.534
+95% S-set pieces (whole circle): [-123.405, -61.571] [-1.494, -0.457]
+
+==== maim5v ==== one-sided beta 0.047 (OLS -0.025 )
+zeros of mean(u s^2), beta: 6.236
+zeros of mean(u s^3), beta: -1.627, 0.078, 1.732, 4.700
+95% S-set pieces (whole circle): [-1209.923, -28.943] [-0.542, 0.306] [1.783, 1209.872]
+
+==== maim4v ==== one-sided beta -0.011 (OLS -0.040 )
+zeros of mean(u s^2), beta: -0.075, 0.810, 3.681
+zeros of mean(u s^3), beta: -1.838, -0.019, 1.731, 14.712
+95% S-set pieces (whole circle): [-0.147, 0.144] [1.281, 3.944]
+
+==== banerjee ==== one-sided beta 0.425 (OLS 0.079 )
+zeros of mean(u s^2), beta: -0.303, 0.431, 15.131
+zeros of mean(u s^3), beta: -2.208, 0.151
+95% S-set pieces (whole circle): [-769.151, -22.559] [-0.062, 0.697] [6.891, 769.310]
+
+==== adh ==== one-sided beta -0.023 (OLS -0.117 )
+zeros of mean(u s^2), beta: -9.229, -5.707, -0.042
+zeros of mean(u s^3), beta: -2.972, -0.050
+95% S-set pieces (whole circle): [-811.851, -4.388] [-0.080, 0.083] [11.993, 811.617]
+
+ dataset  beta_one    k3s    k3u     k4s   k4u  ratio_s  ratio_u  spur_us2  spur_us3  gap_rad  nearest_shared_gap  shared_beta  shared_rho  n_pieces
+    mroz    -0.789 -0.913 -0.372   5.913 0.125    0.141    1.103     0.708     1.174    0.242               1.136       -0.041       0.021         3
+    card     0.093  0.183 -0.240  -0.058 0.576   -0.577    0.100    -0.042       NaN      NaN               0.072       -1.581       0.994         4
+    star    -1.026 -0.762  0.608  -0.828 1.317   -0.700    0.280   -12.328       NaN      NaN               0.095      -57.336       0.988         2
+  maim5v     0.047 -0.145 -0.424   1.325 0.810    0.016    0.222     0.472     1.728    0.577               0.060        6.236      -0.982         3
+  maim4v    -0.011 -0.465 -0.409   2.121 0.983    0.102    0.170     1.503     1.960    0.124               0.248        3.681      -0.944         2
+banerjee     0.425 -0.080  0.152  -0.402 0.467   -0.016    0.049     0.030       NaN      NaN               0.375       15.131      -0.999         3
+     adh    -0.023  7.587 -0.370 103.778 3.124    0.555    0.044    -5.043    -2.873    0.123               0.133       -5.707       0.990         3

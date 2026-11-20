@@ -1,0 +1,21 @@
+
+==== star : n = 5657 ; clusters 319 ; beta0 -0.984 ; OLS -0.858 ; gamma 0.014 ; replications 400 ====
+
+---- design hom ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.940   0.943 |  0.072   0.070 |   173
+one_sided       2 |  0.978   0.980 |  0.005   0.003 |   185
+four            4 |  0.922   0.932 |  0.075   0.065 |   149
+five            5 |  0.940   0.948 |  0.055   0.050 |   161
+two_sided_var   4 |  0.965   0.968 |  0.028   0.025 |   168
+screen          4 |     --      -- |  0.068   0.055 |   142
+
+---- design het ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.043   0.043 |     --      -- |   174
+one_sided       2 |  0.968   0.973 |     --      -- |   198
+four            4 |  0.025   0.028 |     --      -- |   197
+five            5 |  0.033   0.037 |     --      -- |   199
+two_sided_var   4 |  0.072   0.087 |     --      -- |   177

@@ -1,0 +1,15 @@
+
+==== Maimonides grade 5 avgverb on class size : n 2019 ; G 1002 ; OLS -0.025 ; beta at -pi/4 -1.235 ; at +pi/4 1.185 ====
+DT         chi2: [-1.235, 0.017]b
+           adj : [-1.235, 0.019]b
+one_sided  chi2: [-0.542, 0.306]
+           adj : [-1.056, 0.331]
+two_sided  chi2: [-0.504, 0.027]
+           adj : [-0.520, 0.033]
+four       chi2: [-0.488, 0.069]
+           adj : [-0.559, 0.082]
+five       chi2: [-0.419, 0.068]
+           adj : [-0.525, 0.081]
+bounded    chi2: [-1.235, 0.219]b
+           adj : [-1.235, 0.222]b
+DT root: theta -0.1909 beta -0.259 rho 0.190 | L 0.169 sqrt(n)L 7.62 | screen p (chi2, 3 df) 0.093

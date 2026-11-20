@@ -1,0 +1,6 @@
+Angrist-Krueger: n 329509, OLS 0.0632; OLS with x^2: beta 0.0633, kappa 0.00016; slope grid [-0.1315, 0.2580]
+  linear (kappa = 0)     chi2: empty                          F: empty
+  curved, projection     chi2: empty                          F: empty
+  curved, profiled       chi2: empty                          F: empty
+  linear: min T 62.23 at beta 0.0581 (J p, chi2_3, 0.0000)
+  curved: beta 0.0586, kappa 0.00031 (search bound +-0.0226), J 50.72 (p, chi2_2, 0.0000)

@@ -1,0 +1,6 @@
+Angrist-Krueger: OLS 0.0632; 2SLS 0.0990; VT root 0.0599
+  VT         m 1  min T     0.04 at   0.0594  J p   --    set(F): [0.0556, 0.0632]  OLS in: True  TSLS in: False
+  u_bounded  m 4  min T    65.24 at   0.0632  J p 0.0000  set(F): empty  OLS in: False  TSLS in: False
+  u_sieve    m 5  min T   143.63 at   0.0607  J p 0.0000  set(F): empty  OLS in: False  TSLS in: False
+  s_four     m 4  min T    61.23 at   0.0569  J p 0.0000  set(F): empty  OLS in: False  TSLS in: False
+  both       m 8  min T   397.20 at   0.0581  J p 0.0000  set(F): empty  OLS in: False  TSLS in: False

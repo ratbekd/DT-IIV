@@ -1,0 +1,22 @@
+
+==== Banerjee-Iyer: phwht on p_nland : n = 3541 ; 54 districts ; OLS 0.079 ; 2SLS 0.396 (0.110) ====
+  third moments (cluster t): mu30 0.031 (0.16)  mu21 -0.137 (-1.54)  mu12 0.031 (0.34)  mu03 0.328 (1.81)
+  VT roots in domain: beta 0.040 (rho 0.051, screen p 0.088)
+  one_sided  m=2 CUE 0.425  J p 0.439 | chi2 [-0.063, 0.698] | adj [-0.196, 0.753] | OLS in True, 2SLS in True
+  two_sided  m=2 CUE 0.086  J p 0.058 | chi2 [-0.221, 0.140] | adj [-0.245, 0.259] | OLS in True, 2SLS in False
+  four       m=4 CUE 0.124  J p 0.025 | chi2 [0.015, 0.123] | adj [-0.044, 0.240] | OLS in True, 2SLS in False
+  bounded    m=2 CUE 0.578  J p 0.309 | chi2 [-0.194, 0.080] U [0.281, 0.849]b | adj [-0.245, 0.196] U [0.245, 0.849]b | OLS in True, 2SLS in True
+  index      m=1 CUE 0.200  J p -- | chi2 [0.064, 0.377] | adj [0.059, 0.392] | OLS in True, 2SLS in False
+  index_one  m=3 CUE 0.222  J p 0.123 | chi2 [0.103, 0.476] | adj [0.085, 0.547] | OLS in False, 2SLS in True
+  index signal p 0.000 ; single controls: alt 0.246 (p 0.006), lat 0.163 (p 0.000), coastal 0.275 (p 0.000)
+
+==== Banerjee-Iyer: phwht on p_nland (0 < y < 1) : n = 2437 ; 54 districts ; OLS 0.148 ; 2SLS 0.260 (0.073) ====
+  third moments (cluster t): mu30 0.116 (0.58)  mu21 -0.197 (-1.90)  mu12 -0.003 (-0.03)  mu03 -0.078 (-0.43)
+  VT roots in domain: beta -0.478 (rho 0.706, screen p 0.001), beta 0.154 (rho -0.010, screen p 0.051)
+  one_sided  m=2 CUE 0.775  J p 0.624 | chi2 [-0.479, -0.360]b U [0.448, 0.775]b | adj [-0.479, -0.310]b U [0.434, 0.775]b | OLS in False, 2SLS in False
+  two_sided  m=2 CUE -0.332  J p 0.358 | chi2 [-0.479, 0.071]b U [0.456, 0.775]b | adj [-0.479, 0.096]b U [0.437, 0.775]b | OLS in False, 2SLS in False
+  four       m=4 CUE 0.743  J p 0.407 | chi2 [-0.479, -0.381]b U [0.476, 0.775]b | adj [-0.479, -0.329]b U [0.454, 0.775]b | OLS in False, 2SLS in False
+  bounded    m=2 CUE 0.775  J p 0.804 | chi2 [-0.479, -0.244]b U [0.437, 0.775]b | adj [-0.479, -0.217]b U [0.417, 0.775]b | OLS in False, 2SLS in False
+  index      m=1 CUE 0.272  J p -- | chi2 [0.132, 0.489] | adj [0.124, 0.511] | OLS in True, 2SLS in True
+  index_one  m=3 CUE 0.252  J p 0.000 | chi2 empty | adj [0.460, 0.775]b | OLS in False, 2SLS in False
+  index signal p 0.004 ; single controls: alt 0.324 (p 0.010), lat 0.352 (p 0.627), coastal 0.292 (p 0.041)

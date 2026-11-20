@@ -1,0 +1,21 @@
+
+==== mroz : n = 428 ; clusters none ; beta0 -0.789 ; OLS -0.017 ; gamma 1.000 ; replications 1000 ====
+
+---- design hom ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.911   0.931 |  0.075   0.065 |    35
+one_sided       2 |  0.890   0.920 |  0.002   0.002 |    22
+four            4 |  0.877   0.921 |  0.093   0.066 |    38
+five            5 |  0.707   0.780 |  0.261   0.223 |    48
+two_sided_var   4 |  0.753   0.820 |  0.141   0.110 |    39
+screen          4 |     --      -- |  0.227   0.196 |    45
+
+---- design het ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.027   0.045 |     --      -- |    36
+one_sided       2 |  0.890   0.925 |     --      -- |    25
+four            4 |  0.054   0.133 |     --      -- |    39
+five            5 |  0.036   0.086 |     --      -- |    49
+two_sided_var   4 |  0.025   0.046 |     --      -- |    62

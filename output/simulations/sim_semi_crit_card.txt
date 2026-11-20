@@ -1,0 +1,21 @@
+
+==== card : n = 3003 ; clusters none ; beta0 0.157 ; OLS 0.072 ; gamma -0.521 ; replications 1000 ====
+
+---- design hom ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.941   0.951 |  0.036   0.032 |   194
+one_sided       2 |  0.961   0.971 |  0.005   0.004 |   105
+four            4 |  0.943   0.962 |  0.045   0.029 |   124
+five            5 |  0.922   0.932 |  0.077   0.056 |   133
+two_sided_var   4 |  0.917   0.929 |  0.032   0.023 |   127
+screen          4 |     --      -- |  0.066   0.056 |   110
+
+---- design het ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.887   0.894 |     --      -- |   168
+one_sided       2 |  0.939   0.946 |     --      -- |   126
+four            4 |  0.891   0.904 |     --      -- |   145
+five            5 |  0.618   0.686 |     --      -- |    99
+two_sided_var   4 |  0.573   0.643 |     --      -- |    82

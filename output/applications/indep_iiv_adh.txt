@@ -1,0 +1,34 @@
+
+==== Independence-based intrinsic IV, ADH: change in manufacturing share on import exposure (unweighted) , n = 1444 , 48 clusters ====
+OLS -0.117 (HC1 0.031 );  2SLS d_tradeotch_pw_lag -0.303 (HC1 0.091 )
+Screening (standardized):  mu30 = 7.497, mu21 = 0.690, mu12 = 0.097, mu03 = -0.360 ; distinct y = 1272 , distinct x = 1444
+DT-only roots, t = k*delta: -10.816, 0.089, 0.145  -> beta: -8.896, -0.045, 0.001
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.093  beta =  -0.042  [t =  -10.811  beta =   -8.892]  Q_u =   0.00
+   t =  -0.055  beta =  -0.162  [t =   18.129  beta =   14.599]  Q_u =   4.22
+Corrected J = 0.00, df = 1, p = 0.986  (argmin t = 0.093 vs CUE t = 0.093)
+   (same J ignoring clustering = 0.00, p = 0.987)
+Components: skew(s) = 7.593, skew(u) = -0.370, exkurt(s) = 103.969, exkurt(u) = 3.166
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.34, 0.56
+S-set (5%): relevance domain [-0.074, 0.067] ( 1 piece(s)); partner domain [-20.276, -4.941] ( 1 piece(s))
+Label relevance: beta = -0.042 (t = 0.093, cor(s,x) = 0.996)
+   analytic corrected SE 0.020 -> Wald [-0.081, -0.003]
+   bootstrap SE 0.065, 95% percentile [-0.120, 0.118], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label rule beta_pos : ambiguous (both or neither beta > 0)
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.077  beta =  -0.054  [t =  -12.991  beta =  -10.662]  Q_u =   1.78
+   t =   0.008  beta =  -0.110  [t = -118.293  beta =  -96.140]  Q_u =   5.64
+   t =  -0.705  beta =  -0.689  [t =    1.418  beta =    1.034]  Q_u =  12.23
+Corrected J = 3.76, df = 4, p = 0.439  (argmin t = 0.117 vs CUE t = 0.077)
+   (same J ignoring clustering = 4.78, p = 0.310)
+Components: skew(s) = 7.590, skew(u) = -0.370, exkurt(s) = 103.980, exkurt(u) = 3.194
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.26, 0.48
+S-set (5%): relevance domain [-0.078, 0.030] ( 1 piece(s)); partner domain [-12.322, -4.941] ( 1 piece(s))
+Label relevance: beta = -0.054 (t = 0.077, cor(s,x) = 0.997)
+   analytic corrected SE 0.014 -> Wald [-0.083, -0.026]
+   bootstrap SE 0.114, 95% percentile [-0.218, 0.270], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label rule beta_pos : ambiguous (both or neither beta > 0)

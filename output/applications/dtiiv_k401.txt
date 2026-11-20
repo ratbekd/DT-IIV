@@ -1,0 +1,21 @@
+
+==== DT-IIV, 401(k): pira on p401k, n = 9275 ====
+    tau  k  delta_raw  delta_sd  cor_sx   beta  in_D
+-1.1312 -1   1.131240     1.039   0.693 -0.904  True
+-0.0375 -1   0.037507     0.034   0.999  0.020  True
+45.4454  1  45.445390    41.756   0.024 38.418 False
+grid sign changes, k = -1: 2 ; k = +1: 0
+OLS 0.051 (HC1 0.010 ); 2SLS 0.017 (HC1 0.013 ), first-stage F 11736
+DT-IIV 0.020 ; k = -1 ; delta raw 0.038 ; delta SD 0.034 ; cor(s,x) 0.999 ; corrected SE 0.011
+mu30  est    0.0681  t   35.4622
+mu21  est   -0.0014  t   -1.2573
+mu12  est    0.0020  t    1.7297
+mu03  est    0.0518  t   27.2668
+b-hat = mu03/mu30 = 0.760
+S-set: share of grid 0.297 ; pieces 2 ; beta in [ -0.960 , 0.047 ]
+mean pira 0.254 ; mean p401k 0.276
+  -> /home/claude/pkg/DT_IIV_replication/code/applications/../../output/applications/tables/pension_numbers.tex (23 macros)
+alignment-restriction root (mixed moments set to zero): tau -1.067 ; delta SD 0.980 ; beta -0.849
+S-set piece: beta in [ -0.008 , 0.047 ]
+S-set piece: beta in [ -0.960 , -0.845 ]
+S statistic at the 2SLS value: 0.051 ; at OLS (delta -> 0): 5.130 ; critical value 3.841

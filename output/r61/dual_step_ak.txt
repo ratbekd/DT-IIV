@@ -1,0 +1,6 @@
+Angrist-Krueger with the degree step 1{educ = 16}; slopes 0.046 to 0.070, gamma grid -0.20 to 0.60
+  VT         m 1  min T     0.00 at beta 0.0510, gamma 0.28  J p  --   set(F): [0.0460, 0.0700]+
+  u_bounded  m 4  min T    62.43 at beta 0.0600, gamma 0.10  J p 0.0000  set(F): empty
+  u_sieve    m 5  min T   141.34 at beta 0.0580, gamma 0.08  J p 0.0000  set(F): empty
+  s_four     m 4  min T     2.32 at beta 0.0580, gamma 0.18  J p 0.3141  set(F): [0.0550, 0.0600]
+  both       m 8  min T   104.52 at beta 0.0580, gamma 0.20  J p 0.0000  set(F): empty

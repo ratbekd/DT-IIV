@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# R
+.Rhistory
+.RData
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+~$*
+# Data not redistributed (Angrist-Krueger 1991 extract)
+NEW7080*
+.idea/
+.vscode/

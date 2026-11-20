@@ -1,0 +1,6 @@
+Angrist-Krueger: n 329509, OLS 0.0632, slope grid [-0.1315, 0.2580], 61 points
+  linear (gamma = 0)     chi2: empty                          F: empty
+  quadratic, projection  chi2: empty                          F: empty
+  quadratic, profiled    chi2: empty                          F: empty
+  linear: min T 62.23 at beta 0.0581 (J p, chi2_3, 0.0000)
+  quadratic: beta 0.0527, gamma -0.0129, J 34.18 (p, chi2_2, 0.0000)

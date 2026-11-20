@@ -1,0 +1,57 @@
+D0 done
+D1 done
+D1t done
+D2 done
+D3 done
+
+beta0 = -0.98 ; replications = 200 ; n = 5657
+
+==== D0 ====
+mean number of DT roots 2.915 ; root near the truth in 0.980 of replications
+screen rejects the true root: 0.061  (Bonferroni 0.031 )
+screen rejects other roots:   0.553  (Bonferroni 0.530 )
+all roots rejected: 0.050
+rule label   : true root selected 0.980, nothing selected 0.000, median beta -0.959
+rule screen  : true root selected 0.920, nothing selected 0.080, median beta -0.973
+rule screenB : true root selected 0.950, nothing selected 0.035, median beta -0.947
+J-test rejection: two_sided 0.065; kurt 0.050; five 0.070; var123 0.015; two_sided_var 0.025
+
+==== D1 ====
+mean number of DT roots 3.000 ; root near the truth in 0.995 of replications
+screen rejects the true root: 0.045  (Bonferroni 0.025 )
+screen rejects other roots:   0.514  (Bonferroni 0.511 )
+all roots rejected: 0.025
+rule label   : true root selected 0.890, nothing selected 0.000, median beta -0.917
+rule screen  : true root selected 0.950, nothing selected 0.045, median beta -0.984
+rule screenB : true root selected 0.970, nothing selected 0.025, median beta -0.986
+J-test rejection: two_sided 0.090; kurt 0.025; five 0.040; var123 0.020; two_sided_var 0.025
+
+==== D1t ====
+mean number of DT roots 2.920 ; root near the truth in 0.925 of replications
+screen rejects the true root: 0.070  (Bonferroni 0.022 )
+screen rejects other roots:   0.509  (Bonferroni 0.494 )
+all roots rejected: 0.020
+rule label   : true root selected 0.825, nothing selected 0.040, median beta -0.867
+rule screen  : true root selected 0.860, nothing selected 0.125, median beta -0.933
+rule screenB : true root selected 0.905, nothing selected 0.075, median beta -0.938
+J-test rejection: two_sided 0.105; kurt 0.040; five 0.065; var123 0.015; two_sided_var 0.030
+
+==== D2 ====
+mean number of DT roots 3.000 ; root near the truth in 0.000 of replications
+screen rejects the true root: --  (Bonferroni -- )
+screen rejects other roots:   1.000  (Bonferroni 1.000 )
+all roots rejected: 1.000
+rule label   : true root selected 0.000, nothing selected 0.000, median beta 4.366
+rule screen  : true root selected 0.000, nothing selected 1.000, median beta --
+rule screenB : true root selected 0.000, nothing selected 1.000, median beta --
+J-test rejection: two_sided 1.000; kurt 1.000; five 1.000; var123 1.000; two_sided_var 1.000
+
+==== D3 ====
+mean number of DT roots 2.020 ; root near the truth in 0.490 of replications
+screen rejects the true root: 0.735  (Bonferroni 0.449 )
+screen rejects other roots:   0.967  (Bonferroni 0.954 )
+all roots rejected: 0.850
+rule label   : true root selected 0.000, nothing selected 0.490, median beta 1.781
+rule screen  : true root selected 0.100, nothing selected 0.850, median beta -0.121
+rule screenB : true root selected 0.220, nothing selected 0.710, median beta -0.487
+J-test rejection: two_sided 0.980; kurt 0.905; five 1.000; var123 0.215; two_sided_var 1.000

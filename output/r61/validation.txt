@@ -1,0 +1,28 @@
+==== dist
+  linear (gamma = 0)     chi2: [-0.2816, -0.2308] U [-0.0297, 0.0135] F: [-0.2955, -0.2192] U [-0.0297, 0.0135]
+  quadratic, projection  chi2: [-0.3580, -0.2192]+ U [-0.0469, 0.1269] F: [-0.3580, -0.2079]+ U [-0.0469, 0.1269]
+  quadratic, profiled    chi2: [-0.3580, -0.2308]+ U [-0.0383, 0.1165] F: [-0.3580, -0.2308]+ U [-0.0383, 0.1165]
+  linear: min T 2.04 at beta -0.0125 (J p, chi2_3, 0.5650)
+  quadratic: beta -0.0216, gamma 0.1909, J 0.63 (p, chi2_2, 0.7282)
+  n 2825, OLS -0.0297 (0.0076), VT [{'beta': -0.0003125521984910888, 'screen_p': 0.6133982520662911}], two-sided J p 0.624, one-sided [(-0.35795375561935616, -0.23981868119141136, True), (-0.036118241854452456, 0.01136356476771256, False)], bounded [(-0.35795375561935616, -0.23084316698213536, True), (-0.04256984917693069, 0.013547556095864874, False)], jackknife J p 0.5650 set [(-0.295509249617834, -0.21920539450418708, False), (-0.029671608487408935, 0.013547556095864874, False)], eta 0.191
+==== tinc
+  linear (gamma = 0)     chi2: empty                          F: empty
+  quadratic, projection  chi2: empty                          F: empty
+  quadratic, profiled    chi2: empty                          F: empty
+  linear: min T 94.97 at beta 0.1397 (J p, chi2_3, 0.0000)
+  quadratic: beta 0.1627, gamma 0.2493, J 64.59 (p, chi2_2, 0.0000)
+  n 2825, OLS 0.1774 (0.0108), VT [{'beta': -0.001686326775500041, 'screen_p': 0.0}, {'beta': 0.49803697917370165, 'screen_p': 0.0}], two-sided J p 0.000, one-sided [], bounded [], jackknife J p 0.0000 set [], eta 0.249
+==== tinc_any
+  linear (gamma = 0)     chi2: empty                          F: empty
+  quadratic, projection  chi2: [-0.0867, -0.0704]             F: [-0.0867, -0.0704]
+  quadratic, profiled    chi2: [-0.0867, -0.0867]             F: [-0.0867, -0.0704]
+  linear: min T 21.52 at beta 0.0687 (J p, chi2_3, 0.0001)
+  quadratic: beta -0.0803, gamma 0.7592, J 6.72 (p, chi2_2, 0.0348)
+  n 2825, OLS 0.0837 (0.0121), VT [{'beta': -0.059376013438619965, 'screen_p': 4.635847261624804e-12}], two-sided J p 0.008, one-sided [(-0.4622839282142296, -0.3759969950121368, False)], bounded [(0.011823864085299965, 0.042251047154170315, False)], jackknife J p 0.0001 set [], eta 0.759
+==== qsmk
+  linear (gamma = 0)     chi2: [2.1818, 4.4642]               F: [2.1818, 4.9220]
+  quadratic, projection  chi2: [0.3254, 5.8438]               F: [0.3254, 5.8438]
+  quadratic, profiled    chi2: [0.7946, 5.3816]               F: [0.3254, 5.3816]
+  linear: min T 1.12 at beta 3.5519 (J p, chi2_3, 0.7727)
+  quadratic: beta 3.4233, gamma 0.0405, J 0.27 (p, chi2_2, 0.8751)
+  n 1476, OLS 3.5519 (0.4833), VT [], two-sided J p 0.029, one-sided [(2.525254550650586, 4.80739293459756, False)], bounded [(2.525254550650586, 4.80739293459756, False)], jackknife J p 0.7727 set [(2.1818068286368315, 4.921980318501195, False)], eta 0.040

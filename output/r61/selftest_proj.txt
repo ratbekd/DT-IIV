@@ -1,0 +1,1 @@
+projection check: 0 of 150 problems where random search beat the solver (worst relative gap 0.00e+00)

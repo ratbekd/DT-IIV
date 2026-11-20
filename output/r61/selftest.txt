@@ -1,0 +1,14 @@
+ADH n 1444 G 48 OLS -0.1169
+beta -0.217  P: 26.5583997546 vs core 26.5583997546 | R: 9.4678513061 vs core 9.4678513061
+beta -0.067  P: 2.3013402690 vs core 2.3013402690 | R: 9.2293195221 vs core 9.2293195221
+beta -0.303  P: 22.7075976950 vs core 22.7075976950 | R: 18.9450363638 vs core 18.9450363638
+family P  analytic S 5.1606   full-refit T_JK 4.9972
+family B  analytic S 0.1998   full-refit T_JK 0.1991
+family L  analytic S 0.2198   full-refit T_JK 0.2189
+family R  analytic S 0.0939   full-refit T_JK 0.0938
+deletion check beta 0.9 fam P  max abs diff 2.08e-15
+deletion check beta 0.9 fam R  max abs diff 4.86e-16
+deletion check beta 1.0 fam P  max abs diff 2.72e-15
+deletion check beta 1.0 fam R  max abs diff 7.29e-16
+Gaussian reference, G = 48: rejection chi2 0.062  F 0.050  wild 0.048
+projection check: 0 of 40 problems where a random feasible point beat the solver

@@ -1,0 +1,36 @@
+PART A. Worst-case displacement of the angle per unit of the norm eps (population, quadrature)
+law       tendency h                ||H||     D(h) | predicted  eps=0.01  eps=0.05 |   floor
+t5: J = 1.2500, I* = 0.2000, floor = 2.0000   [E s0^2 = 0.9999, E psi^2 = 1.2500 (theory 1.2500), E[s0 psi] = 1.0000]
+          location score           0.4999   0.2500 |    1.9996    1.9986    1.9577 |  2.0000  E[lambda H] = 0.2499
+          tanh s                   0.2202   0.1101 |    2.0003    1.9998    1.9582 |  2.0000  E[lambda H] = 0.1100
+          bounded pair, best       0.4999   0.2499 |    2.0003    1.9998    1.9582 |  2.0000  E[lambda H] = 0.2498
+logistic: J = 1.0966, I* = 0.0881, floor = 3.2171   [E s0^2 = 1.0000, E psi^2 = 1.0966 (theory 1.0966), E[s0 psi] = 1.0000]
+          location score           0.3108   0.0966 |    3.2170    3.2078    3.0135 |  3.2171  E[lambda H] = 0.0966
+          tanh s                   0.1924   0.0597 |    3.2197    3.2098    3.0041 |  3.2171  E[lambda H] = 0.0597
+          bounded pair, best       0.3106   0.0965 |    3.2197    3.2098    3.0041 |  3.2171  E[lambda H] = 0.0965
+          s^3                      4.7091  -1.1997 |    3.9252    3.9227    3.8724 |  3.2171  E[lambda H] = -1.1997
+          powers, best             0.2548   0.0649 |    3.9252    3.9227    3.8724 |  3.2171  E[lambda H] = 0.0649
+gamma6: J = 1.5000, I* = 0.3333, floor = 1.4142   [E s0^2 = 1.0000]
+          tanh s                   0.1852   0.0227 |    8.1625    7.9180    5.5446 |  1.4142
+          exp(-s^2/2)              0.2590   0.1427 |    1.8147    1.8127    1.7684 |  1.4142
+          bounded pair, best       0.5553   0.3083 |    1.8010    1.7989    1.7525 |  1.4142
+          s^2                      1.5275  -0.8165 |    1.8708    1.8700    1.8518 |  1.4142
+          s^3                      4.8285  -0.9999 |    4.8291    4.8188    4.6147 |  1.4142
+          powers, best             0.6268   0.3929 |    1.5953    1.5941    1.5677 |  1.4142
+
+PART B. Estimation pipeline: t5 exogenous component, location-score tendency, worst-case departure
+n = 5000, 400 replications; predicted slope bias = -2 eps (floor 1/sqrt(J-1) = 2, d beta / d theta = 1)
+   eps |  mean bias    MC s.e.         sd |  predicted
+  0.00 |    -0.0029     0.0016     0.0318 |    -0.0000
+  0.02 |    -0.0427     0.0018     0.0350 |    -0.0400
+  0.05 |    -0.1036     0.0016     0.0327 |    -0.1000
+
+PART C. Applications: sensitivity of the bounded pair at the OLS slope and movement of the slope per unit of tolerance
+sample      sr/sx   D'Q^-1D d beta/d eps | observed movement of interior endpoints of C_n(eps), per unit eps
+mroz        1.112     0.082         3.89 | no interior single-interval pair
+card        0.189     0.069         0.72 | no interior single-interval pair
+star        8.794     4.666         4.07 | eps 0.025-0.05: lower 7.01, upper 4.64; eps 0.05-0.1: lower 5.88, upper 4.66; eps 0.1-0.2: lower 7.82, upper 5.89
+maim5v      1.210     0.072         4.51 | no interior single-interval pair
+maim4v      1.298     0.115         3.83 | no interior single-interval pair
+banerjee    0.769     0.068         2.96 | no interior single-interval pair
+adh         0.812     2.458         0.52 | eps 0.05-0.1: lower 1.01, upper 0.77; eps 0.1-0.2: lower 1.26, upper 1.91

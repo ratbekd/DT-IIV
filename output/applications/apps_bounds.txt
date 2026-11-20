@@ -1,0 +1,3 @@
+skewness of OLS residual: all 0.327 | interior obs 0.161 (n 2437) | share at 0 0.227 at 1 0.084
+interior subsample re-estimated: skewness of OLS residual -0.078, skewness of residualized regressor 0.116
+exchange rate sr/sx 0.769

@@ -1,0 +1,20 @@
+
+==== banerjee : n = 3541 ; 54 clusters ; real OLS 0.079 ; beta0 = real 2SLS 0.396 ; gamma -0.462 ; replications 300 ====
+
+---- design hom : median OLS 0.080 ; median 2SLS 0.396 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided          0.398    0.053    0.957     0.000     0.027
+het_index          0.400    0.068    0.950     0.660        --
+het_index_one      0.400    0.047    0.943     0.113     0.053
+
+---- design hetW : median OLS 0.081 ; median 2SLS 0.396 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided          0.397    0.066    0.953     0.000     0.020
+het_index          0.400    0.029    0.933     1.000        --
+het_index_one      0.399    0.026    0.957     1.000     0.040
+
+---- design blk : median OLS 0.091 ; median 2SLS 0.406 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided          0.365    0.200    0.953     0.103     0.013
+het_index          0.283    0.294    0.963     0.200        --
+het_index_one      0.369    0.188    0.967     0.163     0.027

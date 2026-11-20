@@ -1,0 +1,30 @@
+== Mroz: OLS -0.0174, sigma_r/sigma_x 1.1124, 2SLS 1.545 -> rho -0.815
+   one-sided accepted: rho [+0.389, +0.718]  beta [-1.166, -0.487]  (beyond labelling domain)
+   one-sided accepted: rho [+0.963, +0.995]  beta [-11.100, -4.001]  (beyond labelling domain)
+   min S = 0.01 at rho +0.569; S at OLS = 20.52
+== Card: OLS 0.0724, sigma_r/sigma_x 0.1892, 2SLS 0.157 -> rho -0.410
+   one-sided accepted: rho [-0.995, -0.989]  beta [1.339, 1.957]  (beyond labelling domain)
+   one-sided accepted: rho [-0.321, +0.269]  beta [0.020, 0.137]  (inside)
+   one-sided accepted: rho [+0.497, +0.673]  beta [-0.100, -0.036]  (inside)
+   one-sided accepted: rho [+0.912, +0.995]  beta [-1.813, -0.349]  (beyond labelling domain)
+   min S = 0.11 at rho +0.994; S at OLS = 1.24
+== STAR: OLS -0.8578, sigma_r/sigma_x 8.7944, 2SLS -0.984 -> rho +0.014
+   one-sided accepted: rho [-0.046, +0.072]  beta [-1.489, -0.455]  (inside)
+   one-sided accepted: rho [+0.990, +0.995]  beta [-88.472, -62.655]  (beyond labelling domain)
+   min S = 2.18 at rho +0.011; S at OLS = 2.31
+== Maimonides4: OLS -0.0405, sigma_r/sigma_x 1.2980, 2SLS -0.133 -> rho +0.071
+   one-sided accepted: rho [-0.950, -0.712]  beta [1.277, 3.918]  (beyond labelling domain)
+   one-sided accepted: rho [-0.141, +0.082]  beta [-0.147, 0.145]  (inside)
+   min S = 0.09 at rho -0.022; S at OLS = 0.40
+== Maimonides5: OLS -0.0252, sigma_r/sigma_x 1.2099, 2SLS -0.277 -> rho +0.204
+   one-sided accepted: rho [-0.995, -0.831]  beta [1.781, 12.028]  (beyond labelling domain)
+   one-sided accepted: rho [-0.264, +0.392]  beta [-0.541, 0.306]  (inside)
+   min S = 0.10 at rho -0.980; S at OLS = 2.68
+== Banerjee-Iyer: OLS 0.0794, sigma_r/sigma_x 0.7692, 2SLS 0.396 -> rho -0.381
+   one-sided accepted: rho [-0.995, -0.994]  beta [7.073, 7.743]  (beyond labelling domain)
+   one-sided accepted: rho [-0.626, +0.181]  beta [-0.062, 0.697]  (inside)
+   min S = 0.58 at rho -0.424; S at OLS = 3.93
+== ADH: OLS -0.1169, sigma_r/sigma_x 0.8117, 2SLS -0.303 -> rho +0.223
+   one-sided accepted: rho [-0.241, -0.046]  beta [-0.080, 0.085]  (inside)
+   one-sided accepted: rho [+0.983, +0.995]  beta [-8.204, -4.471]  (beyond labelling domain)
+   min S = 0.57 at rho -0.094; S at OLS = 38.11

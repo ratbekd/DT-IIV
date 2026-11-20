@@ -1,0 +1,19 @@
+/home/claude/pkg/DT_IIV_replication/code/applications/dtcore_apps.py:65: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  keep = dd[D['zn']].notna().all(1).values
+
+==== mroz: n = 428 ; domain [0.001, 8] SD units ; relevance floor 0.25 ; B = 1999 ====
+status weak ; sign k = [1] ; S-set share of the grid 100%
+roots on the domain: 2 (1 admissible)
+lwage  OLS -0.017 (0.081) | IV 1.545 (0.604), F 8.25 / 5.56 | VT-IIV 1.173, delta 1.070, cor(S,x) 0.683
+       naive se 0.145 (p 0.000) | corrected se 1.493 (p 0.432), Wald [-1.753, 4.100] | bootstrap se 1.050 (p 0.001), bca [0.481, 4.379], draws 1819/1999 | ratio 7.2 | gap 1.191 (1.473)
+IV: overidentification p (1 df) 0.257 ; RMSE OLS 0.749 IV 1.291 ; adjusted R2 OLS 0.054 IV -1.813 ; IV n = 428
+/home/claude/pkg/DT_IIV_replication/code/applications/dtcore_apps.py:65: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  keep = dd[D['zn']].notna().all(1).values
+
+==== card: n = 3003 ; domain [0.05, 5] SD units ; relevance floor 0.01 ; B = 1999 ====
+status ok, ok ; sign k = [-1  1] ; S-set share of the grid 10%
+educ   OLS 0.072 (0.004) | IV 0.272 (0.101), F 144.86 / 117.96 | VT-IIV 0.097, delta 0.081, cor(S,x) 0.997
+       naive se 0.004 (p 0.000) | corrected se 0.025 (p 0.000), Wald [0.047, 0.147] | bootstrap se 0.054 (p 0.053), bca [-0.001, 0.229], draws 1585/1999 | ratio 14.4 | gap 0.025 (0.025)
+exper  OLS 0.035 (0.002) | IV 0.194 (0.086), F 79.48 / 71.31 | VT-IIV 0.072, delta 0.284, cor(S,x) 0.962
+       naive se 0.002 (p 0.000) | corrected se 0.017 (p 0.000), Wald [0.038, 0.105] | bootstrap se 0.186 (p 0.001), percentile [0.052, 0.536], draws 1585/1999 | ratio 74.9 | gap 0.036 (0.017)
+IV: overidentification p (2 df) 0.709 ; RMSE OLS 0.368 IV 0.607 ; adjusted R2 OLS 0.307 IV -0.925 ; IV n = 2215

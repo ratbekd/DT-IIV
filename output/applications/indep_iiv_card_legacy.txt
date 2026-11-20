@@ -1,0 +1,32 @@
+
+==== Independence-based intrinsic IV, Card: lwage on educ, n = 3003 ====
+OLS 0.072 (HC1 0.004 );  2SLS nearc2, nearc4 0.157 (HC1 0.054 )
+DT-only roots, t = k*delta: -5.843, 0.114, 1.693  -> beta: -1.033, 0.094, 0.393
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.138  beta =   0.099  [t =   -7.248  beta =   -1.299]  Q_u =   0.07
+Corrected J = 0.11, df = 1, p = 0.743  (argmin t = 0.140 vs CUE t = 0.138)
+Components: skew(s) = 0.184, skew(u) = -0.239, exkurt(s) = -0.054, exkurt(u) = 0.573
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.47, 2.23
+S-set (5%): relevance domain [0.057, 0.148] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = 0.099 (t = 0.138, cor(s,x) = 0.991)
+   analytic corrected SE 0.018 -> Wald [0.064, 0.133]
+   bootstrap SE 0.018, 95% percentile [0.063, 0.134], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 0.099 (t = 0.138, cor(s,x) = 0.991)
+   analytic corrected SE 0.018 -> Wald [0.064, 0.133]
+   bootstrap SE 0.017, 95% percentile [0.073, 0.139], labelled draws 927/999, draws at the |t| = 1 edge 0.0%
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.092  beta =   0.090  [t =  -10.832  beta =   -1.977]  Q_u =   2.48
+Corrected J = 5.65, df = 4, p = 0.227  (argmin t = 0.067 vs CUE t = 0.092)
+Components: skew(s) = 0.182, skew(u) = -0.239, exkurt(s) = -0.060, exkurt(u) = 0.577
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.09, 2.20
+S-set (5%): relevance domain [0.048, 0.129] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = 0.090 (t = 0.092, cor(s,x) = 0.996)
+   analytic corrected SE 0.014 -> Wald [0.062, 0.118]
+   bootstrap SE 0.020, 95% percentile [0.058, 0.140], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 0.090 (t = 0.092, cor(s,x) = 0.996)
+   analytic corrected SE 0.014 -> Wald [0.062, 0.118]
+   bootstrap SE 0.017, 95% percentile [0.073, 0.134], labelled draws 873/999, draws at the |t| = 1 edge 0.0%

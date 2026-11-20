@@ -1,0 +1,36 @@
+
+==== VT-IIV, Mroz: hours (thousands) on lwage, n = 428 ====
+
+Stage 1: screening
+  mu30  =  -0.899  (t = -3.429)
+  mu21  =   0.002  (t =  0.009)
+  mu12  =  -0.406  (t = -2.059)
+  mu03  =   0.473  (t =  2.578)
+  b-hat = mu03/mu30 = -0.527 ; exchange rate sd(r)/sd(x) = 1.112 ; se(OLS)/rate = 0.0732
+  outcome: distinct = 305 ; min = 0.012 ; max = 4.950 ; share at min/max = 0.002 / 0.002 ; skewness = 0.402
+
+Stage 2: roots of the VT moment (closed-form cubic)
+    tau  k  delta_raw  delta_sd  cor_sx   beta  in_D
+ 0.9623  1     0.9623     1.070   0.683  1.173  True
+ 4.4462  1     4.4462     4.946   0.198  5.485  True
+42.2596  1    42.2596    47.010   0.021 52.277 False
+  grid sign changes, k = -1: 0 ; k = +1: 2 ; max |M| at closed-form roots = 2.6e-14
+  selected: k = 1 , delta_sd = 1.070 , cor(s,x) = 0.683  (floor 0.25 )
+
+Stage 3: estimates
+  OLS            -0.017  (HC1 0.081 )
+  2SLS exper,exper^2 1.545  (HC1 0.604 );  F classical 8.250 , F robust 5.559 , Sargan p 0.354
+  VT-IIV         1.173   [IV form 1.173 ]
+  sensitivity (mixed moments = 0): delta_sd = 0.527 , beta = 0.569
+
+Stage 4: inference for VT-IIV
+  naive SE (s-hat as data)   0.145
+  uncorrected two-step SE    1.712
+  corrected three-step SE    1.493   (J_b numeric 0.02273 vs closed form 0.02273 )
+  pairs bootstrap SE         0.644   admissible 1527 / 1999 ; resamples with 2+ roots in D at k-hat: 0.312
+  95% percentile interval    [ 0.108 , 2.674 ]
+  95% BCa interval           [ 0.405 , 4.067 ]  (z0 = 0.598 , a = -0.036 )
+  95% corrected Wald         [ -1.753 , 4.100 ]
+  delta_sd = 1.070  corrected SE 1.363
+  S-set: share of D = 1.000 ; pieces = 1 ; beta range [ -0.016 , 8.882 ]
+  IIV - OLS gap = 1.191  (corrected SE 1.493 ; bootstrap SE 0.666 )

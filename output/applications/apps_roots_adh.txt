@@ -1,0 +1,2 @@
+==== ADH: change in manufacturing share on import exposure (unweighted) ; full sample roots in |tau| <= 1: 2 ; beta: -0.045, 0.001
+resamples 999: zero 44.0%  one 0.0%  two+ 56.0% | draws with a root of each sign: neg 14.5% pos 56.0%

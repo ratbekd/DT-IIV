@@ -1,0 +1,23 @@
+
+==== banerjee : n = 3541 ; clusters 54 ; beta0 0.396 ; OLS 0.079 ; replications 500 ====
+
+---- design hom ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided     0.396   0.049 |  0.938  0.960 |    0.000 |  0.034  0.028
+bounded       0.396   0.045 |  0.952  0.960 |    0.000 |  0.020  0.018
+both          0.395   0.049 |  0.922  0.952 |    0.004 |  0.026  0.014
+
+---- design het ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided     0.396   0.040 |  0.912  0.930 |    0.260 |  0.040  0.026
+bounded       0.401   0.041 |  0.948  0.956 |    0.020 |  0.016  0.012
+both          0.397   0.039 |  0.924  0.966 |    0.486 |  0.034  0.018
+
+---- design blk ----
+set          median     MAD |  cover  cover | excl OLS |  J rej  J rej
+                            |   chi2  F(nu) |    F(nu) |   chi2  F(nu)
+one_sided     0.349   0.195 |  0.916  0.950 |    0.098 |  0.026  0.018
+bounded       0.367   0.172 |  0.952  0.972 |    0.034 |  0.010  0.008
+both          0.374   0.168 |  0.906  0.950 |    0.060 |  0.060  0.030

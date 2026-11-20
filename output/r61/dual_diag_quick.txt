@@ -1,0 +1,61 @@
+﻿
+step fit (mean-tendency minimum): beta 0.0580, gamma 0.18
+   u s^2          s      mean +0.00520  t   +0.99
+   u s^3          s      mean -0.01060  t   -0.94
+   u tanh s       s      mean +0.00023  t   +0.51
+   u phi(s)       s      mean -0.00054  t   -0.44
+   s u^2 (VT)     even   mean -0.05261  t   -2.05
+   s tanh u       odd    mean -0.00584  t   -2.59
+   s tanh(u/2)    odd    mean -0.00207  t   -2.04
+   s phi(u)       even   mean +0.00119  t   +0.48
+   s u phi(u)     odd    mean -0.00791  t   -3.07
+   s u^3          odd    mean +0.20835  t   +1.31
+
+bounded error-side minimum: beta 0.0600, gamma 0.10
+   u s^2          s      mean +0.00480  t   +0.90
+   u s^3          s      mean -0.04501  t   -3.74
+   u tanh s       s      mean +0.00292  t   +5.02
+   u phi(s)       s      mean -0.00155  t   -1.29
+   s u^2 (VT)     even   mean -0.04576  t   -1.76
+   s tanh u       odd    mean -0.00482  t   -2.12
+   s tanh(u/2)    odd    mean -0.00163  t   -1.59
+   s phi(u)       even   mean +0.00123  t   +0.49
+   s u phi(u)     odd    mean -0.00670  t   -2.58
+   s u^3          odd    mean +0.14593  t   +0.90
+
+no step, VT root: beta 0.0599, gamma 0.00
+   u s^2          s      mean +0.00484  t   +0.83
+   u s^3          s      mean -0.08958  t   -6.41
+   u tanh s       s      mean +0.00588  t   +6.69
+   u phi(s)       s      mean -0.00354  t   -2.78
+   s u^2 (VT)     even   mean -0.00061  t   -0.02
+   s tanh u       odd    mean -0.00066  t   -0.29
+   s tanh(u/2)    odd    mean +0.00028  t   +0.27
+   s phi(u)       even   mean -0.00144  t   -0.58
+   s u phi(u)     odd    mean -0.00211  t   -0.81
+   s u^3          odd    mean -0.16342  t   -0.98
+
+mean of u^2 by years of schooling (step fit); overall 0.3836
+      0  n     598  E[u^2] 1.2231
+      1  n     215  E[u^2] 1.2431
+      2  n     606  E[u^2] 0.7974
+      3  n    1089  E[u^2] 0.6283
+      4  n    1345  E[u^2] 0.7229
+      5  n    2003  E[u^2] 0.5331
+      6  n    3874  E[u^2] 0.5102
+      7  n    6177  E[u^2] 0.4883
+      8  n   16118  E[u^2] 0.4746
+      9  n   13183  E[u^2] 0.4507
+     10  n   16530  E[u^2] 0.4150
+     11  n   13674  E[u^2] 0.3657
+     12  n  122934  E[u^2] 0.3469
+     13  n   18257  E[u^2] 0.3624
+     14  n   25681  E[u^2] 0.3563
+     15  n    9973  E[u^2] 0.3876
+     16  n   35747  E[u^2] 0.3738
+     17  n   12063  E[u^2] 0.3181
+     18  n   11655  E[u^2] 0.3132
+     19  n    6307  E[u^2] 0.4903
+     20  n   11480  E[u^2] 0.4817
+slope of log E[u^2|x] on x (cells with n >= 1000): -0.0148 per year
+  within 8 to 20 years: -0.0047 per year

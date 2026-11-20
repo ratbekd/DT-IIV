@@ -1,0 +1,6 @@
+Angrist-Krueger, degree term 1{educ = 16}: OLS beta 0.0591, gamma 0.1283
+  linear (kappa = 0)     chi2: empty                          F: empty
+  curved, projection     chi2: [0.0550, 0.0600]               F: [0.0550, 0.0600]
+  curved, profiled       chi2: [0.0560, 0.0600]               F: [0.0560, 0.0600]
+  linear: min T 61.24 at beta 0.0570 (J p, chi2_3, 0.0000)
+  curved: beta 0.0577, kappa 0.17747 (search bound +-1.2641), J 2.24 (p, chi2_2, 0.3268)

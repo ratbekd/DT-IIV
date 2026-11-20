@@ -1,0 +1,23 @@
+
+==== maim4v : n = 2049 ; 1013 clusters ; real OLS -0.040 ; beta0 = real 2SLS -0.133 ; gamma 0.071 ; replications 300 ====
+
+---- design hom : median OLS -0.041 ; median 2SLS -0.127 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided         -0.119    0.102    0.953     0.093     0.023
+het_index         -0.062    0.444    0.953     0.043        --
+het_index_one     -0.108    0.112    0.947     0.093     0.023
+het_controls      -0.032    0.571    0.950     0.053     0.010
+
+---- design hetW : median OLS -0.041 ; median 2SLS -0.133 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided         -0.070    0.179    0.937     0.117     0.020
+het_index         -0.140    0.124    0.950     0.103        --
+het_index_one     -0.136    0.073    0.953     0.133     0.053
+het_controls      -0.139    0.114    0.960     0.087     0.040
+
+---- design blk : median OLS -0.032 ; median 2SLS -0.131 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided         -0.099    0.125    0.967     0.087     0.017
+het_index         -0.075    0.291    0.947     0.043        --
+het_index_one     -0.098    0.119    0.953     0.067     0.030
+het_controls      -0.106    0.640    0.960     0.043     0.000

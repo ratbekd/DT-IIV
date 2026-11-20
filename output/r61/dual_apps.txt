@@ -1,0 +1,42 @@
+==== mroz: n 428, OLS -0.0174, external IV 1.5448
+  VT         m 1  min T     0.00 at   1.0950  J p   --    set(F): [-0.0174, 1.0950]+  OLS in: True  IV in: True
+  u_bounded  m 4  min T     7.49 at  -0.0611  J p 0.0578  set(F): [-0.1936, 0.0263]  OLS in: True  IV in: False
+  u_sieve    m 5  min T    13.69 at   0.1143  J p 0.0083  set(F): empty  OLS in: False  IV in: False
+  s_four     m 4  min T     3.63 at  -0.5480  J p 0.3043  set(F): [-0.8256, -0.3469]  OLS in: False  IV in: False
+  both       m 8  min T    26.85 at   0.8595  J p 0.0004  set(F): empty  OLS in: False  IV in: False
+==== card: n 3003, OLS 0.0724, external IV 0.1574
+  VT         m 1  min T     0.00 at   0.0948  J p   --    set(F): [0.0525, 0.1688] U [0.1883, 0.2616]+  OLS in: True  IV in: True
+  u_bounded  m 4  min T     0.84 at   0.1024  J p 0.8395  set(F): [0.0217, 0.2616]+  OLS in: True  IV in: True
+  u_sieve    m 5  min T     4.58 at   0.1205  J p 0.3336  set(F): [0.0625, 0.2616]+  OLS in: True  IV in: True
+  s_four     m 4  min T     0.71 at   0.0823  J p 0.8702  set(F): [-0.1168, -0.0728]+ U [0.0296, 0.1205]  OLS in: True  IV in: False
+  both       m 8  min T     2.89 at   0.0923  J p 0.8952  set(F): [0.0296, 0.1258]  OLS in: True  IV in: False
+==== star: n 5657, OLS -0.8578, external IV -0.9836
+  VT         m 1  min T     0.00 at   7.2717  J p   --    set(F): [-0.5122, 7.9366]+  OLS in: False  IV in: False
+  u_bounded  m 4  min T     3.87 at   0.1831  J p 0.2757  set(F): [-0.6275, 1.2536]  OLS in: False  IV in: False
+  u_sieve    m 5  min T     3.74 at   0.3000  J p 0.4428  set(F): [-0.7427, 1.3757]  OLS in: False  IV in: False
+  s_four     m 4  min T     1.95 at  -0.9729  J p 0.5836  set(F): [-1.7821, -0.2814]  OLS in: True  IV in: True
+  both       m 8  min T    12.52 at  -0.5122  J p 0.0848  set(F): [-0.9729, -0.1656]  OLS in: True  IV in: True
+==== maim5v: n 2019, OLS -0.0252, external IV -0.2770
+  VT         m 1  min T     0.00 at  -0.2659  J p   --    set(F): [-1.2351, 0.0065]+  OLS in: True  IV in: True
+  u_bounded  m 4  min T     1.92 at  -0.1684  J p 0.5883  set(F): [-0.9536, 0.2155] U [1.0082, 1.1847]+  OLS in: True  IV in: True
+  u_sieve    m 5  min T     5.45 at  -0.4359  J p 0.2444  set(F): [-0.9536, 0.1990] U [1.0359, 1.1847]+  OLS in: True  IV in: True
+  s_four     m 4  min T     5.44 at   0.0541  J p 0.1420  set(F): [-1.2351, -0.6219]+ U [-0.1204, 0.2320]  OLS in: True  IV in: False
+  both       m 8  min T    10.38 at   0.0382  J p 0.1682  set(F): [-0.4896, 0.1990]  OLS in: True  IV in: True
+==== maim4v: n 2049, OLS -0.0405, external IV -0.1329
+  VT         m 1  min T     0.00 at  -0.5001  J p   --    set(F): [-1.3385, -0.2287]+  OLS in: False  IV in: False
+  u_bounded  m 4  min T     3.50 at  -0.7234  J p 0.3214  set(F): [-0.9835, -0.0574]  OLS in: False  IV in: True
+  u_sieve    m 5  min T    10.20 at  -0.2113  J p 0.0371  set(F): [-0.2635, -0.1085]  OLS in: False  IV in: True
+  s_four     m 4  min T     0.36 at  -0.0065  J p 0.9486  set(F): [-0.1769, 0.2001]  OLS in: True  IV in: True
+  both       m 8  min T    10.47 at  -0.0744  J p 0.1636  set(F): [-0.2635, 0.0105]  OLS in: True  IV in: True
+==== banerjee: n 3541, OLS 0.0794, external IV 0.3961
+  VT         m 1  min T     0.00 at   0.0391  J p   --    set(F): [-0.1705, 0.2012]  OLS in: True  IV in: False
+  u_bounded  m 4  min T     7.58 at  -0.0841  J p 0.0556  set(F): [-0.1705, -0.0014]  OLS in: False  IV in: False
+  u_sieve    m 5  min T     5.90 at  -0.0947  J p 0.2064  set(F): [-0.1705, 0.0189]  OLS in: False  IV in: False
+  s_four     m 4  min T     1.63 at   0.5102  J p 0.6529  set(F): [-0.4201, -0.0219] U [0.1704, 0.7364]  OLS in: False  IV in: True
+  both       m 8  min T    16.55 at  -0.0947  J p 0.0205  set(F): [-0.1375, -0.0528]  OLS in: False  IV in: False
+==== adh: n 1444, OLS -0.1169, external IV -0.3028
+  VT         m 1  min T     0.00 at   0.0008  J p   --    set(F): [-0.2022, 0.6949]+  OLS in: True  IV in: False
+  u_bounded  m 4  min T     1.62 at  -0.0637  J p 0.6558  set(F): [-0.3806, 0.0226]  OLS in: True  IV in: True
+  u_sieve    m 5  min T     4.47 at  -0.0100  J p 0.3464  set(F): [-0.4531, -0.2894] U [-0.1275, 0.0668]  OLS in: True  IV in: True
+  s_four     m 4  min T     9.72 at  -0.2130  J p 0.0211  set(F): [-0.2783, -0.1701]  OLS in: False  IV in: False
+  both       m 8  min T    11.71 at  -0.1701  J p 0.1106  set(F): [-0.2130, -0.1169] U [-0.0850, -0.0100]  OLS in: True  IV in: False

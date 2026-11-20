@@ -1,0 +1,36 @@
+
+==== Independence-based intrinsic IV, Maimonides grade 4 avgverb on class size , n = 2049 , 1013 clusters ====
+OLS -0.040 (HC1 0.027 );  2SLS func1 -0.133 (HC1 0.049 )
+Screening (standardized):  mu30 = -0.466, mu21 = 0.006, mu12 = -0.123, mu03 = -0.418 ; distinct y = 1500 , distinct x = 38
+DT-only roots, t = k*delta: -1.527, -0.349, 37.729  -> beta: -2.023, -0.493, 48.933
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =  -0.235  beta =  -0.346  [t =    4.251  beta =    5.478]  Q_u =   1.65
+Corrected J = 2.42, df = 1, p = 0.120  (argmin t = -0.249 vs CUE t = -0.235)
+   (same J ignoring clustering = 2.57, p = 0.109)
+Components: skew(s) = -0.447, skew(u) = -0.470, exkurt(s) = 1.841, exkurt(u) = 0.968
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.72, 0.89
+S-set (5%): relevance domain [-0.584, -0.188] ( 1 piece(s)); partner domain [3.165, 12.200] ( 1 piece(s))
+Label relevance: beta = -0.346 (t = -0.235, cor(s,x) = 0.973)
+   analytic corrected SE 0.106 -> Wald [-0.553, -0.138]
+   bootstrap SE 0.126, 95% percentile [-0.615, -0.082], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 5.478 (t = 4.251, cor(s,x) = 0.229)
+   analytic corrected SE 1.890 -> Wald [1.773, 9.182]
+   bootstrap SE 15.092, 95% percentile [2.913, 21.460], labelled draws 996/999, draws at the |t| = 1 edge 0.0%
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =  -0.558  beta =  -0.765  [t =    1.792  beta =    2.285]  Q_u =  13.63
+   t =  -0.087  beta =  -0.154  [t =   11.444  beta =   14.815]  Q_u =  18.21
+Corrected J = 21.04, df = 4, p = 0.000  (argmin t = -0.375 vs CUE t = -0.558)
+   (same J ignoring clustering = 23.66, p = 0.000)
+Components: skew(s) = -0.345, skew(u) = -0.466, exkurt(s) = 1.097, exkurt(u) = 0.762
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): 1.80, 5.09
+S-set (5%): relevance domain empty ( 0 piece(s)); partner domain empty ( 0 piece(s))
+Label relevance: beta = -0.765 (t = -0.558, cor(s,x) = 0.873)
+   analytic corrected SE 0.066 -> Wald [-0.893, -0.636]
+   bootstrap SE 0.367, 95% percentile [-1.161, -0.046], labelled draws 999/999, draws at the |t| = 1 edge 0.5%
+Label beta_pos : beta = 2.285 (t = 1.792, cor(s,x) = 0.487)
+   analytic corrected SE 0.217 -> Wald [1.861, 2.710]
+   bootstrap SE 429.939, 95% percentile [1.401, 70.472], labelled draws 978/999, draws at the |t| = 1 edge 0.5%

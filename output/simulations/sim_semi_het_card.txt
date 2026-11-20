@@ -1,0 +1,16 @@
+
+==== card : n = 3003  ; real OLS 0.072 ; beta0 = real 2SLS 0.157 ; gamma -0.521 ; replications 300 ====
+
+---- design hom : median OLS 0.073 ; median 2SLS 0.151 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided          0.149    0.038    0.950     0.137     0.000
+het_index          0.165    0.028    0.933     0.957        --
+het_index_one      0.162    0.022    0.960     0.907     0.023
+het_controls       0.159    0.014    0.977     0.983     0.023
+
+---- design hetW : median OLS 0.073 ; median 2SLS 0.156 ----
+set               median      MAD    cover  excl OLS  J reject
+one_sided          0.154    0.038    0.950     0.143     0.007
+het_index          0.163    0.022    0.950     0.980        --
+het_index_one      0.162    0.020    0.960     0.967     0.040
+het_controls       0.157    0.013    0.943     0.997     0.050

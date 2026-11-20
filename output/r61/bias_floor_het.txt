@@ -1,0 +1,37 @@
+PART A. sigma^2(s) = (1 + s^2)/2. Worst-case displacement of the angle per unit of eps
+law       tendency h                ||H||     D(h) | predicted  eps=0.01  eps=0.05 |   floor
+gauss: ||lambda||^2 = 1.4998, E[lambda] = 0.0000, E[lambda s0] = -0.0000, floor = 0.8165
+          lambda                   1.2247   1.5000 |    0.8165    0.8161    0.8086 |  0.8165  E[lambda H] = 1.4998
+          tanh s                   0.1656  -0.1818 |    0.9108    0.9106    0.9058 |  0.8165  E[lambda H] = -0.1818
+          exp(-s^2/2)              0.2781   0.0000 | 1002029889424.8746      none      none |  0.8165  E[lambda H] = -0.0000
+          bounded pair, best       1.0980   1.2055 |    0.9108    0.9106    0.9058 |  0.8165  E[lambda H] = 1.2055
+          s^2                      1.4142  -0.0000 | 1273805213622.4641      none      none |  0.8165  E[lambda H] = 0.0000
+          s^3                      2.4494   3.0000 |    0.8165    0.8161    0.8086 |  0.8165  E[lambda H] = 2.9997
+          powers, best             1.2248   1.5002 |    0.8165    0.8161    0.8086 |  0.8165  E[lambda H] = 1.5000
+t5: ||lambda||^2 = 0.2499, E[lambda] = 0.0000, E[lambda s0] = -0.0001, floor = 2.0004
+          lambda                   0.4999   0.2501 |    1.9991    1.9980    1.9715 |  2.0004  E[lambda H] = 0.2499
+          tanh s                   0.2202  -0.1101 |    2.0003    2.0006    1.9744 |  2.0004  E[lambda H] = -0.1100
+          exp(-s^2/2)              0.2732   0.0000 | 1968777996631.2488      none      none |  2.0004  E[lambda H] = -0.0000
+          bounded pair, best       0.4999   0.2499 |    2.0003    2.0006    1.9744 |  2.0004  E[lambda H] = 0.2498
+logistic: ||lambda||^2 = 0.6404, E[lambda] = 0.0000, E[lambda s0] = -0.0000, floor = 1.2496
+          lambda                   0.8003   0.6406 |    1.2493    1.2487    1.2357 |  1.2496  E[lambda H] = 0.6404
+          tanh s                   0.1924  -0.1448 |    1.3285    1.3280    1.3161 |  1.2496  E[lambda H] = -0.1448
+          exp(-s^2/2)              0.2789   0.0000 | 182672619347.6317      none      none |  1.2496  E[lambda H] = -0.0000
+          bounded pair, best       0.7527   0.5666 |    1.3285    1.3280    1.3161 |  1.2496  E[lambda H] = 0.5665
+          s^2                      1.7888   0.0000 | 805591260736.5374      none      none |  1.2496  E[lambda H] = 0.0000
+          s^3                      4.7091   3.5998 |    1.3081    1.3068    1.2753 |  1.2496  E[lambda H] = 3.5973
+          powers, best             0.7644   0.5844 |    1.3081    1.3068    1.2753 |  1.2496  E[lambda H] = 0.5840
+gamma6: ||lambda||^2 = 2.6232, E[lambda] = 0.0000, E[lambda s0] = -0.0000, floor = 0.6174
+          tanh s                   0.1852  -0.1630 |    1.1360    1.1357    1.1283 |  0.6174  E[lambda H] = -0.1630
+          exp(-s^2/2)              0.2590   0.1209 |    2.1422    2.1402    2.0930 |  0.6174  E[lambda H] = 0.1209
+          bounded pair, best       1.1982   1.4357 |    0.8346    0.8344    0.8307 |  0.6174  E[lambda H] = 1.4356
+          s^2                      1.5275  -0.0000 | 40884285.9597   31.7757   10.0507 |  0.6174  E[lambda H] = -0.0001
+          s^3                      4.8285   3.4999 |    1.3796    1.3780    1.3422 |  0.6174  E[lambda H] = 3.4985
+          powers, best             1.1464   1.3142 |    0.8723    0.8717    0.8566 |  0.6174  E[lambda H] = 1.3137
+
+PART B. Estimation pipeline: Gaussian s0, sigma^2 = (1 + s^2)/2, tendency s^3, worst-case departure
+n = 5000, 400 replications; predicted slope bias = -0.8165 eps
+  0.00 | mean bias  -0.0005  s.e. 0.0011  sd 0.0225 | predicted  -0.0000  (400 roots)
+  0.02 | mean bias  -0.0160  s.e. 0.0011  sd 0.0229 | predicted  -0.0163  (400 roots)
+  0.05 | mean bias  -0.0416  s.e. 0.0012  sd 0.0236 | predicted  -0.0408  (400 roots)
+wrote bias_floor_het.tex

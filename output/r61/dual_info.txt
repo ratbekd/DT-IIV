@@ -1,0 +1,18 @@
+error u               skew     kurt |  J(f_u)-1     I_VT    I_bnd  I_sieve
+normal               0.000    3.000 |    0.0000   0.0000   0.0000   0.0000
+t(5)                 0.000    8.559 |    0.2500   0.0000   0.2498   0.2499
+t(10)                0.000    4.000 |    0.0577   0.0000   0.0577   0.0575
+Laplace              0.000    6.000 |    0.9997   0.0000   0.6935   0.5532
+logistic            -0.000    4.200 |    0.0966   0.0000   0.0966   0.0966
+skew-normal(4)       0.784    3.633 |    0.5144   0.3050   0.4685   0.5128
+skew-normal(-4)     -0.784    3.633 |    0.5144   0.3050   0.4685   0.5128
+gamma(5)             0.894    4.200 |    0.6661   0.3333   0.4624   0.5900
+gamma(10)            0.632    3.600 |    0.2500   0.1818   0.2009   0.2446
+lognormal(0.25)      0.778    4.096 |    0.3225   0.2432   0.2777   0.3195
+lognormal(0.5)       1.750    8.898 |    2.0064   0.6335   1.4460   1.6073
+Gumbel (left)       -1.140    5.400 |    0.6449   0.4187   0.5763   0.6391
+Monte Carlo, s Gaussian, u logistic, a = psi_u - u, n 4000: n var(angle) 10.98 against 1/(J-1) = 10.35 (bias -0.0035, 400 reps)
+Angrist-Krueger residual at the VT root: skew -2.440 kurt 21.026, I_VT 0.4229
+  bandwidth x0.5 (h 0.042): J(f_u)-1 2.5961, I_bounded 1.0905, I_sieve 1.3077
+  bandwidth x1.0 (h 0.084): J(f_u)-1 1.1778, I_bounded 1.0337, I_sieve 1.1076
+  bandwidth x2.0 (h 0.167): J(f_u)-1 0.8933, I_bounded 0.9055, I_sieve 0.9998

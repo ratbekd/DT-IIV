@@ -1,0 +1,72 @@
+
+== Mroz: hours (thousands) on lwage : OLS -0.017 ; one-sided CUE -0.789 ; corr(u^2, s) -0.295, corr(u^2, s^2) 0.150 at the CUE ==
+  c = 0     empty
+  c = 0.05  empty
+  c = 0.1   empty
+  c = 0.2   [-1.130, -0.576]b
+  c = 0.3   [-1.130, -0.453]b
+  c = 0.5   [-1.130, -0.468]b
+  c = inf   [-1.130, -0.487]b
+
+== Card: lwage on educ : OLS 0.072 ; one-sided CUE 0.093 ; corr(u^2, s) 0.001, corr(u^2, s^2) 0.041 at the CUE ==
+  c = 0     [0.053, 0.124]
+  c = 0.05  [0.009, 0.146]
+  c = 0.1   [-0.117, 0.139]b
+  c = 0.2   [-0.101, -0.034] U [0.019, 0.137]
+  c = 0.3   [-0.101, -0.034] U [0.019, 0.137]
+  c = 0.5   [-0.101, -0.034] U [0.019, 0.137]
+  c = inf   [-0.100, -0.036] U [0.020, 0.137]
+
+== STAR kindergarten: score on class size : OLS -0.858 ; one-sided CUE -1.026 ; corr(u^2, s) -0.055, corr(u^2, s^2) 0.024 at the CUE ==
+  c = 0     empty
+  c = 0.05  [-1.419, -0.348]
+  c = 0.1   [-1.571, -0.451]
+  c = 0.2   [-1.496, -0.451]
+  c = 0.3   [-1.496, -0.451]
+  c = 0.5   [-1.496, -0.451]
+  c = inf   [-1.494, -0.453]
+
+== Maimonides grade 5 avgverb on class size : OLS -0.025 ; one-sided CUE 0.047 ; corr(u^2, s) -0.047, corr(u^2, s^2) 0.036 at the CUE ==
+  c = 0     [-0.311, 0.091]
+  c = 0.05  [-0.762, 0.289]
+  c = 0.1   [-1.140, 0.388]
+  c = 0.2   [-0.977, 0.307]
+  c = 0.3   [-0.559, 0.307]
+  c = 0.5   [-0.559, 0.307]
+  c = inf   [-0.542, 0.306]
+
+== Maimonides grade 4 avgverb on class size : OLS -0.040 ; one-sided CUE -0.011 ; corr(u^2, s) -0.077, corr(u^2, s^2) -0.024 at the CUE ==
+  c = 0     empty
+  c = 0.05  [-0.178, 0.079]
+  c = 0.1   [-0.161, 0.159]
+  c = 0.2   [-0.148, 0.146]
+  c = 0.3   [-0.148, 0.146] U [1.251, 1.258]b
+  c = 0.5   [-0.148, 0.146]
+  c = inf   [-0.148, 0.146]
+
+== Banerjee-Iyer: phwht on p_nland : OLS 0.079 ; one-sided CUE 0.425 ; corr(u^2, s) 0.137, corr(u^2, s^2) -0.041 at the CUE ==
+  c = 0     [-0.090, 0.213]
+  c = 0.05  [-0.156, 0.504]
+  c = 0.1   [-0.218, 0.732]
+  c = 0.2   [-0.619, -0.399] U [-0.065, 0.740]
+  c = 0.3   [-0.064, 0.699]
+  c = 0.5   [-0.064, 0.699]
+  c = inf   [-0.063, 0.698]
+
+== ADH: change in manufacturing share on import exposure (unweighted) : OLS -0.117 ; one-sided CUE -0.023 ; corr(u^2, s) -0.003, corr(u^2, s^2) 0.022 at the CUE ==
+  c = 0     [-0.078, -0.014] U [0.011, 0.142]
+  c = 0.05  [-0.086, 0.152]
+  c = 0.1   [-0.081, 0.149]
+  c = 0.2   [-0.080, 0.125]
+  c = 0.3   [-0.080, 0.117]
+  c = 0.5   [-0.080, 0.085]
+  c = inf   [-0.080, 0.085]
+
+== Breakdown values: smallest c at which the value enters the set ==
+  Mroz: hours (thousands) on lwage              nonempty from 0.109 | zero inf | OLS inf (-0.017) | 2SLS inf (1.545)
+  Card: lwage on educ                           nonempty from 0.000 | zero 0.056 | OLS 0.000 (0.072) | 2SLS inf (0.157)
+  STAR kindergarten: score on class size        nonempty from 0.012 | zero inf | OLS 0.017 (-0.858) | 2SLS 0.022 (-0.984)
+  Maimonides grade 5 avgverb on class size      nonempty from 0.000 | zero 0.000 | OLS 0.000 (-0.025) | 2SLS 0.000 (-0.277)
+  Maimonides grade 4 avgverb on class size      nonempty from 0.021 | zero 0.027 | OLS 0.023 (-0.040) | 2SLS 0.023 (-0.133)
+  Banerjee-Iyer: phwht on p_nland               nonempty from 0.000 | zero 0.000 | OLS 0.000 (0.079) | 2SLS 0.034 (0.396)
+  ADH: change in manufacturing share on import  nonempty from 0.000 | zero 0.003 | OLS inf (-0.117) | 2SLS inf (-0.303)

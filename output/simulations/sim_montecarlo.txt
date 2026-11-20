@@ -1,0 +1,63 @@
+  -> /home/claude/pkg/DT_IIV_replication/code/simulations/../../output/simulations/tables_selftest/tab_simulation_results.tex
+
+VT-IIV Monte Carlo self-test
+  alignment mu03 = b mu30 holds in the DGP         PASS
+  eps_x = 0 leaves mu30 at zero                    PASS
+  closed-form VT moment equals the numerical one   PASS
+  variance routes computed                         PASS
+  naive < corrected < uncorrected                  PASS
+  emitters survive sign accuracy below 1           PASS
+  formatters accept NA                             PASS
+------------------------------------------------------------------------------
+PRE-FLIGHT IDENTIFICATION CHECK  (dgp_variant = aligned, N = 50,000)
+------------------------------------------------------------------------------
+  moment mu30 -0.3507  mu21 -0.0028  mu12 -0.0087  mu03 -0.3506
+  t      mu30 -47.75  mu21 -0.50  mu12 -1.04  mu03 -16.78
+  VT root on [0.5, 5]:   k = -1  yes      k = +1  NO
+  cov(x,u) = +1.0020   =>   k = -1,  delta_0 = 1.0000
+  identification conditions look satisfied.
+------------------------------------------------------------------------------
+
+==============================================================================
+VT-IIV MONTE CARLO (port of DT_IIV_montecarlo_v21.R)
+==============================================================================
+  DGP aligned (delta_0 = 1, eps_x = 0.8); 50 populations of N = 100,000; 10 draws each; n = 1,000, 2,000, 4,000
+  true beta 2 (plim OLS 3); search domain [0.5, 5], scale sd
+
+   n method  n_used   mean     sd  ci_lower  ci_upper    bias   rmse
+1000    OLS     500 2.9981 0.0331    2.9331    3.0630  0.9981 0.9986
+1000    IIV     470 1.8286 0.6402    0.5739    3.0832 -0.1714 0.6621
+2000    OLS     500 3.0015 0.0227    2.9570    3.0460  1.0015 1.0018
+2000    IIV     491 1.9481 0.3608    1.2409    2.6554 -0.0519 0.3642
+4000    OLS     500 3.0003 0.0161    2.9688    3.0319  1.0003 1.0005
+4000    IIV     500 1.9738 0.1765    1.6278    2.3198 -0.0262 0.1783
+   n  n_samples  n_estimates  n_boundary  delta_median  delta_mean  delta_sd  pct_weak  sign_accuracy
+1000        500          470           0        1.0279      1.1702    0.6382      41.2            1.0
+2000        500          491           0        0.9794      1.0552    0.3630      15.2            1.0
+4000        500          500           0        1.0098      1.0256    0.1743       1.4            1.0
+
+Elapsed: 7.0 min
+  -> /home/claude/pkg/DT_IIV_replication/code/simulations/../../output/simulations/tables/tab_simulation_results.tex
+  -> /home/claude/pkg/DT_IIV_replication/code/simulations/../../output/simulations/tables/tab_dgp_params.tex
+  none  theta=0.0  delta=1.001  beta=1.998  t(mu12)=   -0.0
+  w     theta=0.5  delta=1.004  beta=1.995  t(mu12)=    0.0
+  w     theta=1.5  delta=1.037  beta=1.962  t(mu12)=    0.0
+  x     theta=0.5  delta=0.768  beta=2.231  t(mu12)=   60.0
+  x     theta=1.0  delta=0.746  beta=2.253  t(mu12)=   93.8
+  x     theta=1.5  delta=0.738  beta=2.261  t(mu12)=  107.9
+              driver theta    mu12   t_mu12  delta_DT  sd_delta  beta_DT  sd_beta  delta_mix0  sd_delta_mix0  beta_mix0  sd_beta_mix0    mu30    mu21    mu03
+none (homoscedastic)     0 -0.0002  -0.0349    1.0006    0.0096   1.9981   0.0098      1.0000         0.0002     1.9987        0.0030 -0.3506 -0.0000 -0.3506
+       control \(w\)   0.5  0.0002   0.0296    1.0041    0.0184   1.9947   0.0178      1.0042         0.0135     1.9946        0.0131 -0.3506  0.0000 -0.3520
+       control \(w\)   1.5 -0.0005   0.0244    1.0367    0.1136   1.9617   0.1115      1.0278         0.0999     1.9706        0.0981 -0.3506  0.0002 -0.3603
+     regressor \(x\)   0.5  0.3407  59.9751    0.7682    0.0018   2.2306   0.0013      0.9964         0.0075     2.0024        0.0049 -0.3506 -0.0000 -0.3493
+     regressor \(x\)     1  0.5812  93.7770    0.7456    0.0017   2.2533   0.0009      0.9944         0.0118     2.0045        0.0094 -0.3506  0.0000 -0.3486
+     regressor \(x\)   1.5  0.7360 107.8592    0.7382    0.0016   2.2608   0.0007      0.9935         0.0142     2.0055        0.0119 -0.3506  0.0000 -0.3483
+              driver theta  delta_star  delta_OLS  sd_OLS  beta_OLS  delta_FGLS  sd_FGLS  beta_FGLS  delta_wGLS  beta_wGLS  Delta_V
+none (homoscedastic)     0      0.9987     1.0006  0.0096    1.9981      1.0007   0.0095     1.9981      1.0006     1.9981  -0.0000
+       control \(w\)   0.5      0.9988     1.0041  0.0184    1.9947      1.1437   0.0193     1.8551      1.0391     1.9597  -0.0131
+       control \(w\)   1.5      0.9984     1.0367  0.1136    1.9617      1.7262   0.9517     1.2722      1.0991     1.8999  -0.1542
+     regressor \(x\)   0.5      0.9988     0.7682  0.0018    2.2306      0.7683   0.0018     2.2305      0.7683     2.2306  -0.0000
+     regressor \(x\)     1      0.9989     0.7456  0.0017    2.2533      0.7456   0.0017     2.2532      0.7456     2.2533  -0.0000
+     regressor \(x\)   1.5      0.9990     0.7382  0.0016    2.2608      0.7382   0.0016     2.2608      0.7382     2.2608  -0.0000
+  -> /home/claude/pkg/DT_IIV_replication/code/simulations/../../output/simulations/tables/tab_het_channels.tex
+  -> /home/claude/pkg/DT_IIV_replication/code/simulations/../../output/simulations/tables/tab_fgls.tex

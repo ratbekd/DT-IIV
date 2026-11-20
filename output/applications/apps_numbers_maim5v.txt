@@ -1,0 +1,11 @@
+==== Maimonides grade 5 avgverb on class size : n 2019 G 1002 OLS -0.025 sr/sx 1.209898
+OLS -0.025 (0.033)  2SLS -0.277 (0.076)
+third moments (standardized), cluster-bootstrap t:
+        m30    m21    m12    m03
+value -0.134 -0.062 -0.060 -0.436
+t     -1.088 -1.451 -1.652 -5.551
+root 1: theta -0.1909 beta -0.259 rho 0.190 relevance 0.982 in-domain TRUE | screen p (window 0.1) 0.093 [min at -0.0910] | (window 0.100) chi2 0.093 adj 0.106 [min at -0.0910]
+in-domain root nearest 0: beta -0.259 | naive se 0.034 | corrected se 0.162, Wald [-0.576, 0.058] | bootstrap se 0.197, percentile [-0.780, 0.008], draws with a root 984/999 | gap -0.234 (se 0.165)
+one_sided rho_hat -0.059 | C_rho [-0.264, 0.393] | C_beta(D) [-0.406, 0.306]
+two_sided rho_hat 0.133 | C_rho [-0.043, 0.368] | C_beta(D) [-0.406, 0.027]
+prior-only bound B(D): [-0.406, 0.355]

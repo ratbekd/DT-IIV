@@ -1,0 +1,15 @@
+
+==== Mroz: hours (thousands) on lwage : n 428 ; G 428 ; OLS -0.017 ; beta at -pi/4 -1.130 ; at +pi/4 1.095 ====
+DT         chi2: [0.046, 1.095]b
+           adj : [-0.117, 1.095]b
+one_sided  chi2: [-1.130, -0.487]b
+           adj : [-1.130, -0.477]b
+two_sided  chi2: [0.144, 0.835]
+           adj : [0.119, 0.899]
+four       chi2: empty
+           adj : empty
+five       chi2: empty
+           adj : empty
+bounded    chi2: [-1.001, -0.485]
+           adj : [-1.038, -0.479]
+DT roots in |theta| <= pi/4: none

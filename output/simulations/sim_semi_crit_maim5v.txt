@@ -1,0 +1,21 @@
+
+==== maim5v : n = 2019 ; clusters 1002 ; beta0 -0.277 ; OLS -0.025 ; gamma 0.213 ; replications 1000 ====
+
+---- design hom ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.951   0.957 |  0.042   0.041 |    72
+one_sided       2 |  0.964   0.972 |  0.028   0.023 |    52
+four            4 |  0.942   0.964 |  0.040   0.031 |    66
+five            5 |  0.883   0.909 |  0.119   0.093 |    76
+two_sided_var   4 |  0.877   0.910 |  0.056   0.044 |    64
+screen          4 |     --      -- |  0.098   0.085 |    62
+
+---- design het ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.565   0.590 |     --      -- |   143
+one_sided       2 |  0.947   0.963 |     --      -- |    33
+four            4 |  0.375   0.435 |     --      -- |    99
+five            5 |  0.408   0.488 |     --      -- |   100
+two_sided_var   4 |  0.598   0.638 |     --      -- |   135

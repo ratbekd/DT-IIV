@@ -1,0 +1,26 @@
+
+==== card : n = 3003 ; real OLS 0.072 ; beta0 = real 2SLS 0.157 ; gamma -0.521 ; replications 300 ====
+residual variance by decile of the regressor, relative to the mean:
+  1.506 1.020 0.772 0.782 0.797 0.816 0.901 0.899 0.985 1.522
+
+---- design hom : median OLS 0.073 , median 2SLS 0.160 , true rho_xu -0.463 ----
+DT, label rule    : median 0.156, MAD 0.028, true root 0.607, none 0.073
+DT, screened      : median 0.156, MAD 0.028, true root 0.590, none 0.107; all roots rejected 0.077
+set              median      MAD    cover  excl OLS  J reject
+two_sided         0.156    0.021    0.957     0.990     0.050
+two_sided_var     0.159    0.025    0.897     0.990     0.043
+one_sided         0.149    0.041    0.927     0.173     0.000
+kurt_pair         0.157    0.029    0.947     0.703     0.023
+all4              0.156    0.020    0.927     0.973     0.047
+five              0.156    0.020    0.890     0.963     0.090
+
+---- design het : median OLS 0.073 , median 2SLS 0.146 , true rho_xu -0.461 ----
+DT, label rule    : median 0.176, MAD 0.028, true root 0.443, none 0.133
+DT, screened      : median 0.175, MAD 0.027, true root 0.327, none 0.387; all roots rejected 0.350
+set              median      MAD    cover  excl OLS  J reject
+two_sided         0.171    0.030    0.900     0.983     0.043
+two_sided_var     0.165    0.037    0.560     1.000     0.293
+one_sided         0.152    0.030    0.953     0.613     0.013
+kurt_pair         0.154    0.033    0.930     0.767     0.057
+all4              0.169    0.025    0.887     0.987     0.073
+five              0.168    0.025    0.620     0.987     0.373

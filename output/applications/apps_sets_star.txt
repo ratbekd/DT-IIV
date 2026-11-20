@@ -1,0 +1,16 @@
+
+==== STAR kindergarten: score on class size : n 5657 ; G 319 ; OLS -0.858 ; beta at -pi/4 -9.652 ; at +pi/4 7.937 ====
+DT         chi2: [-0.277, 2.101] U [3.418, 7.937]b
+           adj : [-0.282, 2.128] U [3.378, 7.937]b
+one_sided  chi2: [-1.495, -0.453]
+           adj : [-1.507, -0.440]
+two_sided  chi2: [-0.447, 0.287]
+           adj : [-0.458, 0.298]
+four       chi2: empty
+           adj : empty
+five       chi2: empty
+           adj : empty
+bounded    chi2: [-1.444, -0.392]
+           adj : [-1.457, -0.381]
+DT root: theta 0.1545 beta 0.512 rho -0.154 | L 0.238 sqrt(n)L 17.91 | screen p (chi2, 3 df) 0.002
+DT root: theta 0.7472 beta 7.289 rho -0.680 | L 0.097 sqrt(n)L 7.29 | screen p (chi2, 3 df) 0.000

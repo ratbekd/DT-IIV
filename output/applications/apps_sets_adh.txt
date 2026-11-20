@@ -1,0 +1,16 @@
+
+==== ADH: change in manufacturing share on import exposure (unweighted) : n 1444 ; G 48 ; OLS -0.117 ; beta at -pi/4 -0.929 ; at +pi/4 0.695 ====
+DT         chi2: [-0.156, 0.330]
+           adj : [-0.170, 0.591]
+one_sided  chi2: [-0.080, 0.085]
+           adj : [-0.091, 0.282]
+two_sided  chi2: [-0.076, 0.069]
+           adj : [-0.088, 0.129]
+four       chi2: [-0.082, 0.037]
+           adj : [-0.313, -0.250] U [-0.092, 0.107]
+five       chi2: [-0.079, 0.033]
+           adj : [-0.084, 0.083]
+bounded    chi2: [-0.045, -0.024]
+           adj : [-0.218, -0.170] U [-0.053, -0.014]
+DT root: theta 0.0889 beta -0.045 rho -0.089 | L 0.138 sqrt(n)L 5.23 | screen p (chi2, 3 df) 0.516
+DT root: theta 0.1442 beta 0.001 rho -0.144 | L 0.128 sqrt(n)L 4.88 | screen p (chi2, 3 df) 0.516

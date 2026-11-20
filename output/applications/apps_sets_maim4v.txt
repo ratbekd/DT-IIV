@@ -1,0 +1,15 @@
+
+==== Maimonides grade 4 avgverb on class size : n 2049 ; G 1013 ; OLS -0.040 ; beta at -pi/4 -1.338 ; at +pi/4 1.258 ====
+DT         chi2: [-1.338, -0.225]b
+           adj : [-1.338, -0.223]b
+one_sided  chi2: [-0.148, 0.146]
+           adj : [-0.158, 0.164]
+two_sided  chi2: [-0.591, -0.183]
+           adj : [-0.604, -0.180]
+four       chi2: empty
+           adj : empty
+five       chi2: empty
+           adj : empty
+bounded    chi2: [-1.173, -0.899] U [-0.216, 0.279]
+           adj : [-1.212, -0.861] U [-0.218, 0.283]
+DT root: theta -0.3356 beta -0.493 rho 0.329 | L 0.147 sqrt(n)L 6.65 | screen p (chi2, 3 df) 0.000

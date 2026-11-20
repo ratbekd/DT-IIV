@@ -1,0 +1,33 @@
+
+==== Independence-based intrinsic IV, STAR kindergarten: score on class size , n = 5657 , 319 clusters ====
+OLS -0.858 (HC1 0.120 );  2SLS small, aide -0.984 (HC1 0.130 )
+Screening (standardized):  mu30 = -0.763, mu21 = -0.023, mu12 = -0.088, mu03 = 0.613 ; distinct y = 379 , distinct x = 17
+DT-only roots, t = k*delta: -26.914, 0.156, 0.926  -> beta: -237.551, 0.512, 7.289
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.062  beta =  -0.311  [t =  -16.072  beta = -142.199]  Q_u =   3.83
+Corrected J = 3.63, df = 1, p = 0.057  (argmin t = 0.082 vs CUE t = 0.062)
+   (same J ignoring clustering = 7.97, p = 0.005)
+Components: skew(s) = -0.764, skew(u) = 0.626, exkurt(s) = -0.797, exkurt(u) = 1.332
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -1.54, -0.72
+S-set (5%): relevance domain [-0.436, 0.260] ( 1 piece(s)); partner domain [-219.262, -67.188] ( 1 piece(s))
+Label relevance: beta = -0.311 (t = 0.062, cor(s,x) = 0.998)
+   analytic corrected SE 0.253 -> Wald [-0.806, 0.185]
+   bootstrap SE 0.376, 95% percentile [-0.935, 0.528], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label rule beta_pos : ambiguous (both or neither beta > 0)
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =  -0.011  beta =  -0.955  [t =   90.740  beta =  797.150]  Q_u =  19.19
+Corrected J = 13.85, df = 4, p = 0.008  (argmin t = 0.002 vs CUE t = -0.011)
+   (same J ignoring clustering = 34.25, p = 0.000)
+Components: skew(s) = -0.762, skew(u) = 0.610, exkurt(s) = -0.826, exkurt(u) = 1.320
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -4.09, -1.98
+S-set (5%): relevance domain empty ( 0 piece(s)); partner domain empty ( 0 piece(s))
+Label relevance: beta = -0.955 (t = -0.011, cor(s,x) = 1.000)
+   analytic corrected SE 0.254 -> Wald [-1.453, -0.457]
+   bootstrap SE 0.413, 95% percentile [-1.489, 0.136], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 797.150 (t = 90.740, cor(s,x) = 0.011)
+   analytic corrected SE 1013.818 -> Wald [-1189.933, 2784.233]
+   bootstrap SE 1768.954, 95% percentile [0.056, 7197.052], labelled draws 380/999, draws at the |t| = 1 edge 0.0%

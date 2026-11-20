@@ -1,0 +1,85 @@
+done mroz
+done card
+done star
+done banerjee
+skipped ditella_cl (data file not found: /home/claude/pkg/DT_IIV_replication/code/lib/iiv/../../../data/ditella.dta )
+skipped burde_enr (data file not found: /home/claude/pkg/DT_IIV_replication/code/lib/iiv/../../../data/burde_linden.dta )
+skipped ae (data file not found: /home/claude/pkg/DT_IIV_replication/code/lib/iiv/../../../data/ae.csv )
+ dataset       set   beta    se   J_p   S_lo   S_hi  S_pieces  ols_in_S   tsls  tsls_in_S
+    mroz two_sided  0.428 0.177 0.303  0.144  0.825         1     False  1.545      False
+    mroz one_sided -0.789 0.169 0.904 -1.130 -0.487         1     False  1.545      False
+    mroz      five  0.435 0.085 0.000    NaN    NaN         0     False  1.545      False
+    card two_sided  0.099 0.018 0.743  0.056  0.148         1      True  0.157      False
+    card one_sided  0.093 0.019 0.443 -0.098  0.137         2      True  0.157      False
+    card      five  0.090 0.014 0.227  0.047  0.128         1      True  0.157      False
+    star two_sided -0.311 0.253 0.057 -0.397  0.242         1     False -0.984      False
+    star one_sided -1.026 0.265 0.146 -1.492 -0.455         1      True -0.984       True
+    star      five -0.955 0.254 0.008    NaN    NaN         0     False -0.984      False
+banerjee two_sided  0.086 0.083 0.069 -0.216  0.140         1      True  0.396      False
+banerjee one_sided  0.425 0.104 0.439 -0.058  0.694         1      True  0.396       True
+banerjee      five  0.117 0.076 0.052 -0.017  0.150         1      True  0.396      False
+done mroz
+done card
+done star
+done maim5v
+done maim4v
+done banerjee
+done adh
+ dataset         set   beta    se   J_p   S_lo   S_hi  S_pieces  ols_in_S   tsls  tsls_in_S
+    mroz        kurt -0.507 0.115 0.471 -1.032 -0.054         1     False  1.545      False
+    mroz skew_kurt_u  0.175 0.101 0.057 -0.010  1.095         2     False  1.545      False
+    mroz        all4  0.424 0.090 0.000    NaN    NaN         0     False  1.545      False
+    card        kurt  0.077 0.023 0.936 -0.003  0.134         1      True  0.157      False
+    card skew_kurt_u  0.093 0.022 0.740  0.044  0.157         1      True  0.157      False
+    card        all4  0.093 0.014 0.878  0.049  0.135         1      True  0.157      False
+    star        kurt -1.680 0.577 0.059 -1.608 -0.455         1      True -0.984       True
+    star skew_kurt_u  0.288 0.422 0.024 -0.108  0.476         1     False -0.984      False
+    star        all4 -0.943 0.252 0.004    NaN    NaN         0     False -0.984      False
+  maim5v        kurt  1.087 0.176 0.377 -1.235  1.185         3      True -0.277       True
+  maim5v skew_kurt_u -0.266 0.160 0.755 -0.800  0.022         1      True -0.277       True
+  maim5v        all4 -0.112 0.094 0.157 -0.481  0.062         1      True -0.277       True
+  maim4v        kurt -0.058 0.051 0.174 -1.338  1.258         3      True -0.133       True
+  maim4v skew_kurt_u -0.849 0.170 0.507 -1.272 -0.472         1     False -0.133      False
+  maim4v        all4 -0.117 0.049 0.006    NaN    NaN         0     False -0.133      False
+banerjee        kurt  0.312 0.114 0.491  0.034  0.849         1      True  0.396       True
+banerjee skew_kurt_u  0.066 0.078 0.018 -0.100  0.089         1      True  0.396      False
+banerjee        all4  0.124 0.079 0.025  0.019  0.120         1      True  0.396      False
+     adh        kurt -0.052 0.021 0.381 -0.080  0.050         1     False -0.303      False
+     adh skew_kurt_u -0.072 0.065 0.140 -0.143  0.006         1      True -0.303      False
+     adh        all4 -0.063 0.017 0.382 -0.080  0.034         1     False -0.303      False
+done mroz
+done card
+done star
+done maim5v
+done maim4v
+done banerjee
+done adh
+ dataset           set   beta    se   J_p   S_lo   S_hi  S_pieces  ols_in_S   tsls  tsls_in_S
+    mroz         var12  0.117 0.230 0.053 -0.032  1.095         2      True  1.545      False
+    mroz        var123  0.943 0.291 0.072 -0.039  1.095         2      True  1.545      False
+    mroz     two_sided  0.428 0.177 0.303  0.144  0.825         1     False  1.545      False
+    mroz two_sided_var  0.782 0.139 0.038  0.825  0.958         1     False  1.545      False
+    card         var12  0.262 0.076 0.091  0.051  0.262         2      True  0.157      False
+    card        var123  0.122 0.018 0.041  0.046  0.160         1      True  0.157       True
+    card     two_sided  0.099 0.018 0.743  0.056  0.148         1      True  0.157      False
+    card two_sided_var  0.111 0.015 0.077  0.050  0.146         1      True  0.157      False
+    star         var12  0.530 0.514 0.929 -0.397  7.937         1     False -0.984      False
+    star        var123 -0.731 0.273 0.007    NaN    NaN         0     False -0.984      False
+    star     two_sided -0.311 0.253 0.057 -0.397  0.242         1     False -0.984      False
+    star two_sided_var -0.684 0.228 0.019    NaN    NaN         0     False -0.984      False
+  maim5v         var12 -0.155 0.130 0.071 -0.299  0.014         1      True -0.277       True
+  maim5v        var123 -0.164 0.071 0.181 -0.341 -0.025         1      True -0.277       True
+  maim5v     two_sided -0.188 0.143 0.108 -0.499  0.022         1      True -0.277       True
+  maim5v two_sided_var -0.169 0.070 0.202 -0.401 -0.009         1      True -0.277       True
+  maim4v         var12 -0.340 0.052 0.248 -0.462 -0.220         1     False -0.133      False
+  maim4v        var123 -0.272 0.044 0.078 -0.416 -0.211         1     False -0.133      False
+  maim4v     two_sided -0.346 0.106 0.120 -0.588 -0.185         1     False -0.133      False
+  maim4v two_sided_var -0.293 0.044 0.120 -0.453 -0.211         1     False -0.133      False
+banerjee         var12  0.045 0.075 0.760 -0.222  0.222         1      True  0.396      False
+banerjee        var123  0.045 0.060 0.952 -0.294  0.170         1      True  0.396      False
+banerjee     two_sided  0.086 0.083 0.069 -0.216  0.140         1      True  0.396      False
+banerjee two_sided_var  0.049 0.060 0.235 -0.313  0.095         1      True  0.396      False
+     adh         var12 -0.065 0.077 0.318 -0.128  0.277         1      True -0.303      False
+     adh        var123 -0.040 0.023 0.174 -0.042  0.290         2     False -0.303      False
+     adh     two_sided -0.042 0.020 0.986 -0.074  0.067         1     False -0.303      False
+     adh two_sided_var -0.041 0.014 0.009  0.028  0.067         1     False -0.303      False

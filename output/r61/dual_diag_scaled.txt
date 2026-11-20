@@ -1,0 +1,18 @@
+﻿Angrist-Krueger, degree step, error scaled by sigma(years of schooling)
+  VT         m 1  min T     0.00 at beta 0.0610, gamma 0.16  J p  --   set(F): [0.0460, 0.0700]+
+  u_bounded  m 4  min T   321.55 at beta 0.0570, gamma 0.32  J p 0.0000  set(F): empty
+  u_sieve    m 5  min T   282.91 at beta 0.0670, gamma 0.02  J p 0.0000  set(F): empty
+  s_four     m 4  min T     4.15 at beta 0.0580, gamma 0.18  J p 0.1258  set(F): [0.0560, 0.0600]
+  both       m 8  min T   369.73 at beta 0.0600, gamma 0.20  J p 0.0000  set(F): empty
+
+scaled moments at the bounded minimum:
+   u s^2          s      t   +0.97
+   u s^3          s      t   +5.97
+   u tanh s       s      t   -7.27
+   u phi(s)       s      t   +1.44
+   s u^2 (VT)     even   t   -0.89
+   s tanh u       odd    t   -4.20
+   s tanh(u/2)    odd    t   -3.24
+   s phi(u)       even   t   -3.82
+   s u phi(u)     odd    t   -4.97
+   s u^3          odd    t   +2.27

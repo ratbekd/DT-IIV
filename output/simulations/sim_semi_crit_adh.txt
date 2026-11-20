@@ -1,0 +1,21 @@
+
+==== adh : n = 1444 ; clusters 48 ; beta0 -0.303 ; OLS -0.117 ; gamma 0.236 ; replications 1000 ====
+
+---- design hom ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.734   0.842 |  0.133   0.122 |    14
+one_sided       2 |  0.446   0.619 |  0.208   0.157 |    14
+four            4 |  0.357   0.589 |  0.313   0.208 |    21
+five            5 |  0.152   0.379 |  0.725   0.595 |    22
+two_sided_var   4 |  0.256   0.490 |  0.571   0.490 |    17
+screen          4 |     --      -- |  0.643   0.550 |    21
+
+---- design het ----
+                  |       coverage |      J rejects |      
+set             m |   chi2   F(nu) |   chi2   F(nu) |    nu
+two_sided       2 |  0.626   0.762 |     --      -- |    12
+one_sided       2 |  0.479   0.652 |     --      -- |    13
+four            4 |  0.156   0.370 |     --      -- |    19
+five            5 |  0.087   0.291 |     --      -- |    22
+two_sided_var   4 |  0.128   0.303 |     --      -- |    20

@@ -1,0 +1,35 @@
+
+==== Independence-based intrinsic IV, Maimonides grade 5 avgverb on class size , n = 2019 , 1002 clusters ====
+OLS -0.025 (HC1 0.028 );  2SLS func1 -0.277 (HC1 0.062 )
+Screening (standardized):  mu30 = -0.134, mu21 = -0.062, mu12 = -0.060, mu03 = -0.436 ; distinct y = 1476 , distinct x = 37
+DT-only roots, t = k*delta: -0.193  -> beta: -0.259
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =  -0.134  beta =  -0.188  [t =    7.441  beta =    8.977]  Q_u =   1.98
+Corrected J = 2.59, df = 1, p = 0.108  (argmin t = -0.148 vs CUE t = -0.134)
+   (same J ignoring clustering = 2.82, p = 0.093)
+Components: skew(s) = -0.109, skew(u) = -0.452, exkurt(s) = 1.231, exkurt(u) = 0.896
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.37, 1.76
+S-set (5%): relevance domain [-0.501, 0.022] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = -0.188 (t = -0.134, cor(s,x) = 0.991)
+   analytic corrected SE 0.143 -> Wald [-0.468, 0.092]
+   bootstrap SE 0.241, 95% percentile [-0.683, 0.250], labelled draws 999/999, draws at the |t| = 1 edge 0.1%
+Label beta_pos : beta = 8.977 (t = 7.441, cor(s,x) = 0.133)
+   analytic corrected SE 8.106 -> Wald [-6.910, 24.865]
+   bootstrap SE 106.529, 95% percentile [0.017, 77.797], labelled draws 949/999, draws at the |t| = 1 edge 0.2%
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =  -0.066  beta =  -0.105  [t =   15.245  beta =   18.420]  Q_u =   3.19
+Corrected J = 6.81, df = 4, p = 0.146  (argmin t = -0.075 vs CUE t = -0.066)
+   (same J ignoring clustering = 7.70, p = 0.103)
+Components: skew(s) = -0.122, skew(u) = -0.446, exkurt(s) = 1.281, exkurt(u) = 0.875
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): -0.96, 1.41
+S-set (5%): relevance domain [-0.418, 0.065] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = -0.105 (t = -0.066, cor(s,x) = 0.998)
+   analytic corrected SE 0.091 -> Wald [-0.282, 0.073]
+   bootstrap SE 0.169, 95% percentile [-0.532, 0.085], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 18.420 (t = 15.245, cor(s,x) = 0.065)
+   analytic corrected SE 21.584 -> Wald [-23.886, 60.725]
+   bootstrap SE 671.622, 95% percentile [0.022, 127.703], labelled draws 929/999, draws at the |t| = 1 edge 0.0%

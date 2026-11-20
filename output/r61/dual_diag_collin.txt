@@ -1,0 +1,27 @@
+
+no step, VT root (beta 0.0599, gamma 0.00): joint T 71.4, t [-0.29  0.27 -0.58 -0.81]
+  correlation
+ [[ 1.      0.9972 -0.8591  0.9971]
+ [ 0.9972  1.     -0.8782  0.9887]
+ [-0.8591 -0.8782  1.     -0.837 ]
+ [ 0.9971  0.9887 -0.837   1.    ]]
+  eigenvalues [4.66640159e-05 7.94666159e-03 2.09428419e-01 3.78257826e+00]  condition 81060
+  T by eigen-direction (small to large eigenvalue) [12.5 55.6  3.3  0. ]
+
+no step, bounded min (beta 0.0630, gamma 0.00): joint T 65.3, t [-1.86 -1.33  0.25 -2.32]
+  correlation
+ [[ 1.      0.9973 -0.8572  0.9972]
+ [ 0.9973  1.     -0.8756  0.9891]
+ [-0.8572 -0.8756  1.     -0.8364]
+ [ 0.9972  0.9891 -0.8364  1.    ]]
+  eigenvalues [4.52354283e-05 7.91760131e-03 2.11648993e-01 3.78038817e+00]  condition 83571
+  T by eigen-direction (small to large eigenvalue) [16.6 37.9  8.6  2.3]
+
+step fit (beta 0.0580, gamma 0.18): joint T 64.1, t [-2.59 -2.04  0.48 -3.07]
+  correlation
+ [[ 1.      0.9971 -0.8377  0.9972]
+ [ 0.9971  1.     -0.8568  0.9889]
+ [-0.8377 -0.8568  1.     -0.8171]
+ [ 0.9972  0.9889 -0.8171  1.    ]]
+  eigenvalues [5.49507275e-05 8.31968246e-03 2.38818170e-01 3.75280720e+00]  condition 68294
+  T by eigen-direction (small to large eigenvalue) [ 9.4 37.8 12.4  4.6]

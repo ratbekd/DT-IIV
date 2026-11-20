@@ -1,0 +1,2 @@
+==== Card: lwage on educ ; full sample roots in |tau| <= 1: 1 ; beta: 0.094
+resamples 999: zero 1.0%  one 91.6%  two+ 7.4% | draws with a root of each sign: neg 17.4% pos 85.2%

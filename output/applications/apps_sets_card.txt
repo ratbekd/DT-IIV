@@ -1,0 +1,15 @@
+
+==== Card: lwage on educ : n 3003 ; G 3003 ; OLS 0.072 ; beta at -pi/4 -0.117 ; at +pi/4 0.262 ====
+DT         chi2: [0.054, 0.162] U [0.208, 0.262]b
+           adj : [0.053, 0.163] U [0.205, 0.262]b
+one_sided  chi2: [-0.100, -0.036] U [0.020, 0.137]
+           adj : [-0.117, 0.138]b
+two_sided  chi2: [0.056, 0.148]
+           adj : [0.055, 0.149]
+four       chi2: [0.048, 0.136]
+           adj : [0.047, 0.138]
+five       chi2: [0.046, 0.129]
+           adj : [0.043, 0.138]
+bounded    chi2: [0.053, 0.115]
+           adj : [0.053, 0.115]
+DT root: theta 0.1140 beta 0.094 rho -0.114 | L 0.157 sqrt(n)L 8.58 | screen p (chi2, 3 df) 0.167

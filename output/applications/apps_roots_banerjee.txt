@@ -1,0 +1,2 @@
+==== Banerjee-Iyer: phwht on p_nland ; full sample roots in |tau| <= 1: 1 ; beta: 0.040
+resamples 999: zero 0.7%  one 97.3%  two+ 2.0% | draws with a root of each sign: neg 72.9% pos 27.8%

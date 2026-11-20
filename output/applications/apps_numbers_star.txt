@@ -1,0 +1,13 @@
+==== STAR kindergarten: score on class size : n 5657 G 319 OLS -0.858 sr/sx 8.794421
+OLS -0.858 (0.203)  2SLS -0.984 (0.217)
+third moments (standardized), cluster-bootstrap t:
+        m30    m21    m12    m03
+value -0.763 -0.023 -0.088  0.613
+t     -5.813 -0.796 -2.870 10.195
+root 1: theta -1.5337 beta -237.551 rho 0.999 relevance 0.037 in-domain FALSE | screen p (window 0.1) 0.201 [min at -1.5816] | (window 0.100) chi2 0.201 adj 0.213 [min at -1.5816]
+root 2: theta 0.1545 beta 0.512 rho -0.154 relevance 0.988 in-domain TRUE | screen p (window 0.1) 0.002 [min at 0.0545] | (window 0.100) chi2 0.002 adj 0.003 [min at 0.0545]
+root 3: theta 0.7472 beta 7.289 rho -0.680 relevance 0.734 in-domain TRUE | screen p (window 0.1) 0.000 [min at 0.6472] | (window 0.100) chi2 0.000 adj 0.000 [min at 0.6472]
+in-domain root nearest 0: beta 0.512 | naive se 0.199 | corrected se 0.475, Wald [-0.419, 1.442] | bootstrap se 0.643, percentile [-0.546, 2.080], draws with a root 989/999 | gap 1.369 (se 0.514)
+one_sided rho_hat 0.019 | C_rho [-0.046, 0.072] | C_beta(D) [-1.495, -0.453]
+two_sided rho_hat -0.062 | C_rho [-0.129, -0.047] | C_beta(D) [-0.447, 0.287]
+prior-only bound B(D): [-3.624, 1.908]

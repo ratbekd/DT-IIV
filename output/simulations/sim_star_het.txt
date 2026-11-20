@@ -1,0 +1,54 @@
+
+==== STAR, real data: n = 5657 ; clusters = 319 ====
+OLS -0.858 ; 2SLS (random assignment) -0.984 ; implied rho_xu at 2SLS 0.014 
+
+Per control h (closed form). 'slope' = cov(h,u^2) - cov(h,s^2) and 'validity' = cov(h, s u),
+ both evaluated at the 2SLS benchmark, with cluster-robust t-statistics.
+h              beta   rho_xu    slope        t  validity        t
+girl         -4.129    0.349    0.036    1.282     0.015    1.048
+white        -2.814    0.217    0.034    0.569     0.007    0.335
+freelunch    -1.088    0.026   -0.109   -2.399    -0.001   -0.070
+tblack        2.985   -0.400    0.032    0.451    -0.019   -0.714
+exp          -5.752    0.486    0.034    0.533     0.026    1.011
+masters      -1.138    0.032   -0.037   -0.586    -0.001   -0.029
+suburb       -6.870    0.564    0.017    0.271     0.020    0.906
+rural         0.013   -0.099    0.090    1.458    -0.010   -0.447
+urban        -0.523   -0.038   -0.085   -1.396     0.004    0.199
+idx_var       6.311   -0.632    0.015    0.285    -0.043   -1.869
+
+Moment sets (CUE; corrected, clustered S-set and J-test):
+set             m     beta           95% S-set  pieces      J p    OLS in   2SLS in
+one_sided       2   -1.026    [-1.472, -0.474]       1    0.146      TRUE      TRUE
+het_controls    9   -0.761     [-8.165, 4.475]       1    0.537      TRUE      TRUE
+het_index       1    6.311     [-9.643, 7.928]       2       --     FALSE     FALSE
+het_index_one   3   -0.927               empty       0    0.018     FALSE     FALSE
+
+==== Semi-synthetic STAR: beta0 = -0.98 ; replications = 200 ====
+
+---- D0 : median OLS -0.986 ; median 2SLS -0.980 ----
+set             median      MAD    cover  excl OLS  J reject
+one_sided       -0.989    0.109    0.955     0.000     0.000
+het_controls    -0.949    1.531    0.805     0.195     0.030
+het_index       -1.055    0.989    0.915     0.065        --
+het_index_one   -0.984    0.112    0.935     0.015     0.040
+
+---- D1 : median OLS 1.414 ; median 2SLS -0.961 ----
+set             median      MAD    cover  excl OLS  J reject
+one_sided       -0.965    0.136    0.950     1.000     0.005
+het_controls    -0.855    1.569    0.780     0.030     0.010
+het_index       -1.468    1.010    0.870     0.250        --
+het_index_one   -0.951    0.133    0.930     1.000     0.075
+
+---- D1w : median OLS 1.415 ; median 2SLS -0.984 ----
+set             median      MAD    cover  excl OLS  J reject
+one_sided       -0.975    0.121    0.985     1.000     0.005
+het_controls    -1.013    0.675    0.760     0.320     0.085
+het_index       -0.097    1.397    0.860     0.030        --
+het_index_one   -0.957    0.117    0.900     1.000     0.090
+
+---- D2 : median OLS 1.397 ; median 2SLS -0.975 ----
+set             median      MAD    cover  excl OLS  J reject
+one_sided       -0.980    0.095    0.980     1.000     0.005
+het_controls    -0.808    2.118    0.805     0.015     0.010
+het_index       -1.044    0.213    0.920     1.000        --
+het_index_one   -0.978    0.094    0.955     1.000     0.045

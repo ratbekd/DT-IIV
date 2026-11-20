@@ -1,0 +1,36 @@
+
+==== Independence-based intrinsic IV, Banerjee-Iyer: phwht on p_nland , n = 3541 , 54 clusters ====
+OLS 0.079 (HC1 0.013 );  2SLS instru 0.396 (HC1 0.041 )
+Screening (standardized):  mu30 = 0.031, mu21 = -0.137, mu12 = 0.031, mu03 = 0.328 ; distinct y = 2285 , distinct x = 62
+DT-only roots, t = k*delta: -2.187, -0.051, 2.011  -> beta: -1.603, 0.040, 1.627
+
+---- moment set 3 ( 2 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.009  beta =   0.086  [t = -117.571  beta =  -90.360]  Q_u =  27.03
+   t =  -0.823  beta =  -0.554  [t =    1.215  beta =    1.014]  Q_u =  37.52
+Corrected J = 3.29, df = 1, p = 0.070  (argmin t = -0.113 vs CUE t = 0.009)
+   (same J ignoring clustering = 41.81, p = 0.000)
+Components: skew(s) = 0.027, skew(u) = 0.327, exkurt(s) = -0.466, exkurt(u) = 0.359
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): 1.65, 0.12
+S-set (5%): relevance domain [-0.220, 0.140] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = 0.086 (t = 0.009, cor(s,x) = 1.000)
+   analytic corrected SE 0.083 -> Wald [-0.077, 0.248]
+   bootstrap SE 0.323, 95% percentile [-0.602, 0.811], labelled draws 999/999, draws at the |t| = 1 edge 1.2%
+Label beta_pos : beta = 0.086 (t = 0.009, cor(s,x) = 1.000)
+   analytic corrected SE 0.083 -> Wald [-0.077, 0.248]
+   bootstrap SE 3.488, 95% percentile [0.059, 8.924], labelled draws 830/999, draws at the |t| = 1 edge 1.5%
+
+---- moment set 34 ( 5 conditions ) ----
+Local minima of the CUE criterion on |theta| <= pi/4 (partner in brackets):
+   t =   0.048  beta =   0.117  [t =  -20.633  beta =  -15.792]  Q_u =  38.81
+Corrected J = 9.39, df = 4, p = 0.052  (argmin t = 0.025 vs CUE t = 0.048)
+   (same J ignoring clustering = 69.76, p = 0.000)
+Components: skew(s) = 0.011, skew(u) = 0.321, exkurt(s) = -0.470, exkurt(u) = 0.386
+Heteroscedasticity check, u^2 on s and s^2 (HC0 t): 2.71, -0.26
+S-set (5%): relevance domain [-0.018, 0.150] ( 1 piece(s)); partner domain unbounded ( 2 piece(s))
+Label relevance: beta = 0.117 (t = 0.048, cor(s,x) = 0.999)
+   analytic corrected SE 0.076 -> Wald [-0.033, 0.266]
+   bootstrap SE 0.162, 95% percentile [-0.305, 0.289], labelled draws 999/999, draws at the |t| = 1 edge 0.0%
+Label beta_pos : beta = 0.117 (t = 0.048, cor(s,x) = 0.999)
+   analytic corrected SE 0.076 -> Wald [-0.033, 0.266]
+   bootstrap SE 4.226, 95% percentile [0.051, 10.044], labelled draws 882/999, draws at the |t| = 1 edge 0.0%

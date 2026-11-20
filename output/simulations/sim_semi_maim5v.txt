@@ -1,0 +1,26 @@
+
+==== maim5v : n = 2019 ; real OLS -0.025 ; beta0 = real 2SLS -0.277 ; gamma 0.213 ; replications 500 ====
+residual variance by decile of the regressor, relative to the mean:
+  1.358 0.970 1.139 0.895 0.898 0.938 0.999 0.852 0.897 1.055
+
+---- design hom : median OLS -0.025 , median 2SLS -0.278 , true rho_xu 0.208 ----
+DT, label rule    : median -0.274, MAD 0.099, true root 0.846, none 0.000
+DT, screened      : median -0.269, MAD 0.094, true root 0.796, none 0.096; all roots rejected 0.116
+set              median      MAD    cover  excl OLS  J reject
+two_sided        -0.274    0.093    0.946     0.584     0.048
+two_sided_var    -0.263    0.144    0.864     0.498     0.052
+one_sided        -0.277    0.120    0.946     0.504     0.038
+kurt_pair        -0.201    0.226    0.954     0.720     0.000
+all4             -0.272    0.073    0.924     0.750     0.060
+five             -0.271    0.075    0.854     0.732     0.146
+
+---- design het : median OLS -0.028 , median 2SLS -0.279 , true rho_xu 0.206 ----
+DT, label rule    : median -0.494, MAD 0.113, true root 0.258, none 0.000
+DT, screened      : median -0.485, MAD 0.108, true root 0.218, none 0.216; all roots rejected 0.252
+set              median      MAD    cover  excl OLS  J reject
+two_sided        -0.491    0.110    0.542     0.962     0.032
+two_sided_var    -0.473    0.106    0.554     0.976     0.036
+one_sided        -0.298    0.141    0.924     0.478     0.042
+kurt_pair         0.526    0.183    0.306     0.920     0.006
+all4             -0.439    0.072    0.314     0.990     0.278
+five             -0.436    0.067    0.358     0.996     0.268
