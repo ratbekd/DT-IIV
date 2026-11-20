@@ -18,8 +18,6 @@ Fixed-slope confidence sets (241 angles, crossings refined):
   five                chi2: empty                              adj: empty                              OLS in (np.False_, np.False_)  2SLS in (np.False_, np.False_)
   variance-augmented  chi2: empty                              adj: empty                              OLS in (np.False_, np.False_)  2SLS in (np.False_, np.False_)
   one-sided           chi2: empty                              adj: empty                              OLS in (np.False_, np.False_)  2SLS in (np.False_, np.False_)
-Traceback (most recent call last):
-  File "code\r61\ak_vt.py", line 112, in <module>
 full-sample admissible roots: [0.05985127]
 resamples 999: zero 0.0%  one 100.0%  two+ 0.0%
 single-root resamples: median 0.0596, 95% range [0.0556, 0.0633], sd 0.0020
